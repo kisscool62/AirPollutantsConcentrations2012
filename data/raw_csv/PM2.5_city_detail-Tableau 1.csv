@@ -1,0 +1,1821 @@
+PM2.5 measurements at city level;;;;;;;;;;;
+PM2.5: percentage of population and exceedances. Results are shown at city level.;;;;;;;;;;;
+;;;;;;;;;;;
+tot_pop_exc: sum of total population assigned to each stations for stations having above_TV?=1;;;;;;;;;;;
+nb_of_station_exc: count of stations having above_TV?=1;;;;;;;;;;;
+tot_pop_no_exc: sum of total population assigned to each stations for stations having above_TV?=0;;;;;;;;;;;
+nb_of_station_no_exc: count of stations having above_TV?=0;;;;;;;;;;;
+percentage_pop_exc=(tot_pop_exc)/(tot_pop_exc+tot_pop_no_exc)*100;;;;;;;;;;;
+percentage_pop_no_exc=(tot_pop_no_exc)/(tot_pop_exc+tot_pop_no_exc)*100;;;;;;;;;;;
+Note: one station (station_european_code) can be counted several times if the same station shows several concentration statistics for the same year (distinct measurements recorded under different measurement_european_group_code);;;;;;;;;;;
+;;;;;;;;;;;
+country_iso_code;city_code;city_name;component_caption;component_name;statistics_year;tot_pop_exc;nb_of_station_exc;tot_pop_no_exc;nb_of_station_no_exc;percentage_pop_exc;percentage_pop_no_exc
+AT;AT001C1;Wien;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;105778,56;1;0;100
+AT;AT001C1;Wien;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;105778,56;1;0;100
+AT;AT001C1;Wien;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;105778,56;2;0;100
+AT;AT001C1;Wien;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;105778,56;1;0;100
+AT;AT001C1;Wien;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;105778,56;2;0;100
+AT;AT001C1;Wien;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;105778,56;2;0;100
+AT;AT001C1;Wien;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;1652790;6;0;100
+AT;AT001C1;Wien;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1652790;6;0;100
+AT;AT002C1;Graz;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;232038,144;1;0;100
+AT;AT002C1;Graz;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;232038,144;1;0;100
+AT;AT002C1;Graz;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;232038,144;2;0;100
+AT;AT002C1;Graz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;247904;3;0;100
+AT;AT002C1;Graz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;232038,144;2;0;100
+AT;AT002C1;Graz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;232038,144;2;0;100
+AT;AT003C1;Linz;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;173851,704;1;0;100
+AT;AT003C1;Linz;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;173851,704;1;0;100
+AT;AT003C1;Linz;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;173851,704;1;0;100
+AT;AT003C1;Linz;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;173851,704;1;0;100
+AT;AT003C1;Linz;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;173851,704;1;0;100
+AT;AT003C1;Linz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;173851,704;1;0;100
+AT;AT003C1;Linz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;173851,704;2;0;100
+AT;AT003C1;Linz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;185739;3;0;100
+AT;AT004C1;Salzburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;9429,568;1;0;0;100;0
+AT;AT004C1;Salzburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;9429,568;1;0;0;100;0
+AT;AT004C1;Salzburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;9429,568;1;0;100
+AT;AT004C1;Salzburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;147337;2;0;100
+AT;AT004C1;Salzburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;147337;2;0;100
+AT;AT004C1;Salzburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;147337;2;0;100
+AT;AT004C1;Salzburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;147337;2;0;100
+AT;AT004C1;Salzburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;147337;2;0;100
+AT;AT005C1;Innsbruck;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;7085,952;1;0;100
+AT;AT005C1;Innsbruck;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;7085,952;1;0;100
+AT;AT005C1;Innsbruck;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;7085,952;1;0;100
+AT;AT005C1;Innsbruck;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;7085,952;1;0;100
+AT;AT005C1;Innsbruck;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;7085,952;1;0;100
+AT;AT005C1;Innsbruck;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;7085,952;1;0;100
+AT;AT005C1;Innsbruck;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;7085,952;1;0;100
+AT;AT005C1;Innsbruck;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;7085,952;1;0;100
+AT;AT006C1;Klagenfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;5967,104;1;0;100
+AT;AT006C1;Klagenfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;5967,104;1;0;0;100;0
+AT;AT006C1;Klagenfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;5967,104;1;0;100
+AT;AT006C1;Klagenfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;5967,104;1;0;100
+AT;AT006C1;Klagenfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;5967,104;1;0;100
+AT;AT006C1;Klagenfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;5967,104;1;0;100
+AT;AT006C1;Klagenfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;87268,896;1;0;100
+AT;AT006C1;Klagenfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;93236;2;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2000;0;0;929298,412;1;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;1003562;2;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;1003562;2;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;929298,412;1;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;929298,412;1;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;929298,412;1;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;1003562;3;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;1003562;3;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;1003562;4;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1003562;4;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1003562;3;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;1003562;3;0;100
+BE;BE001C1;Bruxelles / Brussel;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1003562;4;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;34195,252;1;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;34195,252;1;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;34195,252;1;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;34195,252;1;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;34195,252;1;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;462098;2;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;462098;3;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;462098;2;0;100
+BE;BE002C1;Antwerpen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;462098;3;0;100
+BE;BE003C1;Gent;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;215061,648;2;0;100
+BE;BE003C1;Gent;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;215061,648;2;0;100
+BE;BE003C1;Gent;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;215061,648;2;0;100
+BE;BE003C1;Gent;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;215061,648;2;0;100
+BE;BE004C1;Charleroi;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;188532,674;2;0;100
+BE;BE004C1;Charleroi;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;203599;3;0;100
+BE;BE004C1;Charleroi;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;203599;3;0;100
+BE;BE004C1;Charleroi;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;203599;2;0;100
+BE;BE004C1;Charleroi;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;203599;3;0;100
+BE;BE005C1;Liège;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;334996,242;2;0;100
+BE;BE005C1;Liège;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;334996,242;2;0;100
+BE;BE005C1;Liège;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;334996,242;2;0;100
+BE;BE005C1;Liège;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;334996,242;2;0;100
+BE;BE005C1;Liège;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;334996,242;5;0;100
+BE;BE006C1;Brugge;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;108901,304;1;0;100
+BE;BE006C1;Brugge;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;108901,304;1;0;100
+BE;BE006C1;Brugge;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;108901,304;1;0;100
+BE;BE006C1;Brugge;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;108901,304;1;0;100
+BE;BE009C1;Mons;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;84481,758;1;0;100
+BE;BE009C1;Mons;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;84481,758;1;0;100
+BE;BE009C1;Mons;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;84481,758;1;0;100
+BE;BE009C1;Mons;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;84481,758;1;0;100
+BE;BE009C1;Mons;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;84481,758;1;0;100
+BE;BE010C1;Kortrijk;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;66331,232;1;0;100
+BE;BE010C1;Kortrijk;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;66331,232;1;0;100
+BG;BG001C1;Sofia;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1108747,492;1;0;100
+BG;BG001C1;Sofia;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;1108747,492;1;0;0;100;0
+BG;BG001C1;Sofia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;1108747,492;1;0;0;100;0
+BG;BG001C1;Sofia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;1108747,492;1;0;0;100;0
+BG;BG002C1;Plovdiv;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;330761,896;1;0;0;100;0
+BG;BG002C1;Plovdiv;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;330761,896;1;0;0;100;0
+BG;BG002C1;Plovdiv;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;330761,896;1;0;0;100;0
+BG;BG003C1;Varna;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;11218,248;1;0;100
+BG;BG003C1;Varna;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;11218,248;1;0;100
+BG;BG003C1;Varna;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;11218,248;1;0;100
+BG;BG006C1;Ruse;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;151703,716;1;0;100
+BG;BG006C1;Ruse;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;151703,716;1;0;0;100;0
+BG;BG006C1;Ruse;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;151703,716;1;0;0;100;0
+BG;BG006C1;Ruse;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;151703,716;1;0;0;100;0
+BG;BG008C1;Stara Zagora;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;134773,948;1;0;0;100;0
+BG;BG008C1;Stara Zagora;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;134773,948;1;0;100
+BG;BG008C1;Stara Zagora;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;134773,948;1;0;100
+BG;BG008C1;Stara Zagora;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;134773,948;1;0;100
+BG;BG012C1;Pernik;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;75465,776;1;0;0;100;0
+BG;BG012C1;Pernik;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;75465,776;1;0;0;100;0
+BG;BG012C1;Pernik;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;75465,776;1;0;0;100;0
+BG;BG012C1;Pernik;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;75465,776;1;0;0;100;0
+BG;BG012C1;Pernik;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;75465,776;1;0;0;100;0
+BG;BG012C1;Pernik;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;75465,776;1;0;0;100;0
+BG;BG012C1;Pernik;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;75465,776;1;0;0;100;0
+BG;BG017C1;Veliko Tarnovo;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;63242,256;1;0;0;100;0
+BG;BG017C1;Veliko Tarnovo;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;63242,256;1;0;0;100;0
+BG;BG017C1;Veliko Tarnovo;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;63242,256;1;0;0;100;0
+CH;CH001C1;Zürich;PM2.5;Particulate matter < 2.5 µm (aerosol);1998;0;0;321820,1;1;0;100
+CH;CH001C1;Zürich;PM2.5;Particulate matter < 2.5 µm (aerosol);1999;0;0;321820,1;1;0;100
+CH;CH001C1;Zürich;PM2.5;Particulate matter < 2.5 µm (aerosol);2000;0;0;321820,1;1;0;100
+CH;CH001C1;Zürich;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;321820,1;1;0;100
+CH;CH001C1;Zürich;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;321820,1;1;0;100
+CH;CH001C1;Zürich;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;321820,1;1;0;100
+CH;CH001C1;Zürich;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;321820,1;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);1998;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);1999;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2000;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;6209,6;1;0;100
+CH;CH004C1;Bern;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;6209,6;1;0;100
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);1999;0;0;43894,75;1;0;100
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);2000;0;0;43894,75;1;0;100
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;43894,75;1;0;100
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;43894,75;1;0;0;100;0
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;43894,75;1;0;0;100;0
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;43894,75;1;0;100
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;43894,75;1;0;100
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;43894,75;1;0;100
+CH;CH009C1;Lugano;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;43894,75;1;0;100
+CY;CY001C1;Lefkosia;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;12519,95;1;0;0;100;0
+CY;CY001C1;Lefkosia;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;12519,95;1;0;100
+CY;CY001C1;Lefkosia;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;237879,05;1;0;100
+CY;CY001C1;Lefkosia;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;237879,05;1;0;100
+CY;CY001C1;Lefkosia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;237879,05;1;0;100
+CY;CY001C1;Lefkosia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;237879,05;1;0;100
+CY;CY501C1;Lemesos;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;173326,55;1;0;100
+CY;CY501C1;Lemesos;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;173326,55;1;0;100
+CY;CY501C1;Lemesos;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;173326,55;1;0;100
+CY;CY501C1;Lemesos;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;173326,55;1;0;100
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;1170866;2;0;100
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;1170866;3;0;100
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;17562,99;1;1153303,01;3;1,5;98,5
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;1170866;4;0;100
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;1170866;4;0;100
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1170866;4;0;100
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1170866;4;0;100
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;1170866;5;0;100
+CZ;CZ001C1;Praha;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1170866;6;0;100
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;347222,72;1;0;100
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;347222,72;1;0;0;100;0
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;347222,72;1;0;0;100;0
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;347222,72;1;0;100
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;347222,72;1;0;100
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;347222,72;1;0;100
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;347222,72;1;0;100
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;347222,72;2;0;100
+CZ;CZ002C1;Brno;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;347222,72;2;0;100
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;294937,425;1;0;0;100;0
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;294937,425;2;0;0;100;0
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;294937,425;2;0;0;100;0
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;147468,7125;1;147468,7125;1;50;50
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;147468,7125;1;147468,7125;1;50;50
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;294937,425;2;0;0;100;0
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;294937,425;2;0;0;100;0
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;294937,425;2;0;0;100;0
+CZ;CZ003C1;Ostrava;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;294937,425;2;0;0;100;0
+CZ;CZ004C1;Plzen;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;7280,775;1;0;100
+CZ;CZ004C1;Plzen;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;7280,775;1;0;100
+CZ;CZ004C1;Plzen;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;7280,775;1;0;100
+CZ;CZ004C1;Plzen;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;7280,775;1;0;100
+CZ;CZ004C1;Plzen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;7280,775;1;0;100
+CZ;CZ004C1;Plzen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;7280,775;1;0;100
+CZ;CZ004C1;Plzen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;161795;2;0;100
+CZ;CZ004C1;Plzen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;161795;2;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;90583,66;1;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;90583,66;1;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;90583,66;1;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;90583,66;1;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;90583,66;1;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;90583,66;1;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;90583,66;1;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;90583,66;1;0;100
+CZ;CZ005C1;Ústí nad Labem;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;90583,66;1;0;100
+CZ;CZ006C1;Olomouc;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;95479,945;1;0;0;100;0
+CZ;CZ006C1;Olomouc;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;95479,945;1;0;0;100;0
+CZ;CZ006C1;Olomouc;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;95479,945;1;0;0;100;0
+CZ;CZ006C1;Olomouc;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;95479,945;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;93521,24;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;93521,24;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;93521,24;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;93521,24;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;93521,24;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;93521,24;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;93521,24;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;93521,24;1;0;100
+CZ;CZ007C1;Liberec;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;93521,24;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;85037,975;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;85037,975;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;85037,975;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;85037,975;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;85037,975;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;85037,975;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;85037,975;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;85037,975;1;0;100
+CZ;CZ008C1;Ceské Budejovice;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;85037,975;1;0;100
+CZ;CZ009C1;Hradec Králové;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;4240,8;1;0;0;100;0
+CZ;CZ009C1;Hradec Králové;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;4240,8;1;0;100
+CZ;CZ009C1;Hradec Králové;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;4240,8;1;0;100
+CZ;CZ009C1;Hradec Králové;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;4240,8;1;0;100
+CZ;CZ009C1;Hradec Králové;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;4240,8;1;0;100
+CZ;CZ009C1;Hradec Králové;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4240,8;1;0;100
+CZ;CZ009C1;Hradec Králové;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4240,8;1;0;100
+CZ;CZ009C1;Hradec Králové;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;94240;2;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;82267,52;1;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;82267,52;1;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;82267,52;1;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;82267,52;1;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;82267,52;1;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;82267,52;1;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;82267,52;1;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;82267,52;1;0;100
+CZ;CZ010C1;Pardubice;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;82267,52;1;0;100
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;74001,995;1;0;100
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;74001,995;1;0;0;100;0
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;74001,995;1;0;0;100;0
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;74001,995;1;0;100
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;74001,995;1;0;100
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;74001,995;1;0;100
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;74001,995;1;0;0;100;0
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;74001,995;1;0;100
+CZ;CZ011C1;Zlín;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;74001,995;1;0;100
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;66418,34;1;0;100
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;66418,34;1;0;0;100;0
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;66418,34;1;0;0;100;0
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;66418,34;1;0;100
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;66418,34;1;0;100
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;66418,34;1;0;100
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;66418,34;1;0;100
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;66418,34;1;0;100
+CZ;CZ012C1;Kladno;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;66418,34;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;48316,315;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;48316,315;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;48316,315;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;48316,315;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;48316,315;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;48316,315;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;48316,315;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;48316,315;1;0;100
+CZ;CZ014C1;Jihlava;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;48316,315;1;0;100
+CZ;CZ016C1;Most;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;64681,195;1;0;100
+CZ;CZ016C1;Most;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;64681,195;1;0;100
+CZ;CZ016C1;Most;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;64681,195;1;0;0;100;0
+CZ;CZ016C1;Most;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;64681,195;1;0;100
+CZ;CZ016C1;Most;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;64681,195;1;0;100
+CZ;CZ016C1;Most;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;64681,195;1;0;100
+CZ;CZ016C1;Most;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;64681,195;1;0;100
+CZ;CZ016C1;Most;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;64681,195;1;0;100
+DE;DE001C1;Berlin;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;3363975;2;0;100
+DE;DE001C1;Berlin;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;3363975;4;0;100
+DE;DE001C1;Berlin;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;3363975;4;0;100
+DE;DE001C1;Berlin;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;3363975;5;0;100
+DE;DE001C1;Berlin;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;3363975;5;0;100
+DE;DE002C1;Hamburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;1624885,206;2;0;100
+DE;DE002C1;Hamburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;1624885,206;2;0;100
+DE;DE002C1;Hamburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;1624885,206;1;0;100
+DE;DE002C1;Hamburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;1732287;3;0;100
+DE;DE002C1;Hamburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1732287;4;0;100
+DE;DE002C1;Hamburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1732287;4;0;100
+DE;DE002C1;Hamburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;1732287;3;0;100
+DE;DE002C1;Hamburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1732287;3;0;100
+DE;DE003C1;München;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;1180217,864;1;0;100
+DE;DE003C1;München;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1258228;2;0;100
+DE;DE003C1;München;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1258228;2;0;100
+DE;DE003C1;München;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;1258228;2;0;100
+DE;DE003C1;München;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1258228;4;0;100
+DE;DE004C1;Köln;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;61002,73;1;0;100
+DE;DE004C1;Köln;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;61002,73;1;0;100
+DE;DE004C1;Köln;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;61002,73;1;0;100
+DE;DE005C1;Frankfurt am Main;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;615891,738;1;0;100
+DE;DE005C1;Frankfurt am Main;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;615891,738;1;0;100
+DE;DE005C1;Frankfurt am Main;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;656601;2;0;100
+DE;DE005C1;Frankfurt am Main;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;656601;2;0;100
+DE;DE005C1;Frankfurt am Main;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;656601;2;0;100
+DE;DE006C1;Essen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;559437,27;1;0;100
+DE;DE006C1;Essen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;559437,27;2;0;100
+DE;DE006C1;Essen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;559437,27;4;0;100
+DE;DE006C1;Essen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;559437,27;3;0;100
+DE;DE007C1;Stuttgart;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;36535,608;1;0;100
+DE;DE007C1;Stuttgart;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;18267,804;1;571016,196;2;3,1;96,9
+DE;DE007C1;Stuttgart;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;589284;2;0;100
+DE;DE007C1;Stuttgart;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;18267,804;1;571016,196;2;3,1;96,9
+DE;DE007C1;Stuttgart;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;18267,804;1;571016,196;2;3,1;96,9
+DE;DE007C1;Stuttgart;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;589284;3;0;100
+DE;DE007C1;Stuttgart;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;589284;3;0;100
+DE;DE008C1;Leipzig;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;501038;2;0;100
+DE;DE008C1;Leipzig;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;501038;2;0;100
+DE;DE008C1;Leipzig;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;501038;2;0;100
+DE;DE009C1;Dresden;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;471541,98;1;0;100
+DE;DE009C1;Dresden;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;502710;3;0;100
+DE;DE009C1;Dresden;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;502710;3;0;100
+DE;DE009C1;Dresden;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;502710;3;0;100
+DE;DE010C1;Dortmund;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;550090,1;1;0;100
+DE;DE010C1;Dortmund;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;550090,1;1;0;100
+DE;DE010C1;Dortmund;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;550090,1;2;0;100
+DE;DE010C1;Dortmund;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;550090,1;2;0;100
+DE;DE011C1;Düsseldorf;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;534265,102;1;0;100
+DE;DE011C1;Düsseldorf;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;534265,102;2;0;100
+DE;DE011C1;Düsseldorf;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;534265,102;2;0;100
+DE;DE011C1;Düsseldorf;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;534265,102;2;0;100
+DE;DE012C1;Bremen;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;508581,724;1;0;100
+DE;DE012C1;Bremen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;508581,724;1;0;100
+DE;DE012C1;Bremen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;508581,724;1;0;100
+DE;DE012C1;Bremen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;508581,724;1;0;100
+DE;DE012C1;Bremen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;508581,724;1;0;100
+DE;DE013C1;Hannover;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;520519;2;0;100
+DE;DE013C1;Hannover;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;520519;2;0;100
+DE;DE013C1;Hannover;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;520519;2;0;100
+DE;DE013C1;Hannover;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;520519;2;0;100
+DE;DE013C1;Hannover;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;520519;2;0;100
+DE;DE013C1;Hannover;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;520519;2;0;100
+DE;DE013C1;Hannover;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;520519;2;0;100
+DE;DE013C1;Hannover;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;520519;2;0;100
+DE;DE014C1;Nürnberg;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;468145,482;1;0;100
+DE;DE014C1;Nürnberg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;468145,482;1;0;100
+DE;DE014C1;Nürnberg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;468145,482;1;0;100
+DE;DE014C1;Nürnberg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;468145,482;1;0;100
+DE;DE014C1;Nürnberg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;468145,482;1;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;221920,482;1;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;236589;2;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;236589;2;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;236589;2;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;236589;2;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;14668,518;1;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;236589;2;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;236589;2;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;236589;2;0;100
+DE;DE018C1;Halle an der Saale;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;236589;2;0;100
+DE;DE019C1;Magdeburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;14212,384;1;0;100
+DE;DE019C1;Magdeburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;229232;2;0;100
+DE;DE019C1;Magdeburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;229232;2;0;100
+DE;DE019C1;Magdeburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;229232;2;0;100
+DE;DE019C1;Magdeburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;229232;2;0;100
+DE;DE019C1;Magdeburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;229232;2;0;100
+DE;DE020C1;Wiesbaden;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;16967,85;1;0;100
+DE;DE020C1;Wiesbaden;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;16967,85;1;0;100
+DE;DE020C1;Wiesbaden;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;16967,85;1;0;100
+DE;DE020C1;Wiesbaden;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;273675;2;0;100
+DE;DE020C1;Wiesbaden;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;273675;2;0;100
+DE;DE020C1;Wiesbaden;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;273675;2;0;100
+DE;DE020C1;Wiesbaden;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;273675;2;0;100
+DE;DE020C1;Wiesbaden;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;273675;2;0;100
+DE;DE021C1;Göttingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;121911;2;0;100
+DE;DE021C1;Göttingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;121911;2;0;100
+DE;DE021C1;Göttingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;121911;2;0;100
+DE;DE021C1;Göttingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;121911;2;0;100
+DE;DE026C1;Trier;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;6214,012;1;0;100
+DE;DE026C1;Trier;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;6214,012;1;0;100
+DE;DE026C1;Trier;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;6214,012;1;0;100
+DE;DE026C1;Trier;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;6214,012;1;0;100
+DE;DE026C1;Trier;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;6214,012;1;0;100
+DE;DE027C1;Freiburg im Breisgau;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;217890;2;0;100
+DE;DE027C1;Freiburg im Breisgau;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;217890;2;0;100
+DE;DE027C1;Freiburg im Breisgau;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;217890;2;0;100
+DE;DE027C1;Freiburg im Breisgau;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;217890;2;0;100
+DE;DE029C1;Frankfurt (Oder);PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;3910,712;1;0;100
+DE;DE029C1;Frankfurt (Oder);PM2.5;Particulate matter < 2.5 µm (aerosol);2006;3910,712;1;0;0;100;0
+DE;DE029C1;Frankfurt (Oder);PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;3910,712;1;0;100
+DE;DE029C1;Frankfurt (Oder);PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;59165,288;1;0;100
+DE;DE029C1;Frankfurt (Oder);PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;3910,712;1;0;100
+DE;DE032C1;Erfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;12542,352;1;0;100
+DE;DE032C1;Erfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;202296;2;0;100
+DE;DE032C1;Erfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;202296;2;0;100
+DE;DE032C1;Erfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;189753,648;1;0;100
+DE;DE032C1;Erfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;189753,648;1;0;100
+DE;DE032C1;Erfurt;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;189753,648;1;0;100
+DE;DE033C1;Augsburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;243497,296;1;0;100
+DE;DE033C1;Augsburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;243497,296;1;0;100
+DE;DE033C1;Augsburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;243497,296;2;0;100
+DE;DE033C1;Augsburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;243497,296;2;0;100
+DE;DE033C1;Augsburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;243497,296;2;0;100
+DE;DE035C1;Karlsruhe;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;283232;2;0;100
+DE;DE035C1;Karlsruhe;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;283232;2;0;100
+DE;DE035C1;Karlsruhe;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;283232;2;0;100
+DE;DE035C1;Karlsruhe;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;283232;2;0;100
+DE;DE035C1;Karlsruhe;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;283232;2;0;100
+DE;DE035C1;Karlsruhe;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;283232;2;0;100
+DE;DE035C1;Karlsruhe;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;283232;2;0;100
+DE;DE036C1;Mönchengladbach;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;16041,012;1;0;100
+DE;DE036C1;Mönchengladbach;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;16041,012;1;0;100
+DE;DE036C1;Mönchengladbach;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;16041,012;1;0;100
+DE;DE037C1;Mainz;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;182236,516;1;0;100
+DE;DE037C1;Mainz;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;182236,516;1;0;100
+DE;DE037C1;Mainz;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;12045,484;1;0;100
+DE;DE037C1;Mainz;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;194282;2;0;100
+DE;DE037C1;Mainz;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;194282;3;0;100
+DE;DE037C1;Mainz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;194282;2;0;100
+DE;DE037C1;Mainz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;194282;2;0;100
+DE;DE037C1;Mainz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;194282;2;0;100
+DE;DE039C1;Kiel;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;14259,628;1;0;100
+DE;DE039C1;Kiel;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;14259,628;1;0;100
+DE;DE039C1;Kiel;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;14259,628;1;0;100
+DE;DE039C1;Kiel;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;14259,628;1;0;100
+DE;DE040C1;Saarbrücken;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;167741,602;1;0;100
+DE;DE040C1;Saarbrücken;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;167741,602;1;0;100
+DE;DE040C1;Saarbrücken;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;167741,602;1;0;100
+DE;DE040C1;Saarbrücken;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;167741,602;1;0;100
+DE;DE040C1;Saarbrücken;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;167741,602;1;0;100
+DE;DE040C1;Saarbrücken;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;167741,602;1;0;100
+DE;DE041C1;Potsdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;136961,132;1;0;100
+DE;DE041C1;Potsdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;136961,132;1;0;100
+DE;DE041C1;Potsdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;136961,132;1;0;100
+DE;DE041C1;Potsdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;136961,132;1;0;100
+DE;DE041C1;Potsdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;146014;2;0;100
+DE;DE041C1;Potsdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;146014;3;0;100
+DE;DE041C1;Potsdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;146014;3;0;100
+DE;DE042C1;Koblenz;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;6674,052;1;0;100
+DE;DE042C1;Koblenz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;6674,052;1;0;100
+DE;DE042C1;Koblenz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;6674,052;1;0;100
+DE;DE042C1;Koblenz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;6674,052;1;0;100
+DE;DE043C1;Rostock;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;187019,378;1;0;100
+DE;DE043C1;Rostock;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;187019,378;1;0;100
+DE;DE043C1;Rostock;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;187019,378;2;0;100
+DE;DE043C1;Rostock;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;187019,378;2;0;100
+DE;DE043C1;Rostock;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;187019,378;2;0;100
+DE;DE044C1;Kaiserslautern;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;91814,254;1;0;100
+DE;DE044C1;Kaiserslautern;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;91814,254;1;0;100
+DE;DE044C1;Kaiserslautern;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;91814,254;1;0;100
+DE;DE044C1;Kaiserslautern;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;91814,254;1;0;100
+DE;DE044C1;Kaiserslautern;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;91814,254;1;0;100
+DE;DE050C1;Tübingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;78069,74;1;0;100
+DE;DE050C1;Tübingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;78069,74;1;0;100
+DE;DE052C1;Flensburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;5006,872;1;0;100
+DE;DE052C1;Flensburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;5006,872;1;0;100
+DE;DE052C1;Flensburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;5006,872;1;0;100
+DE;DE053C1;Marburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4908,168;1;0;100
+DE;DE053C1;Marburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4908,168;1;0;100
+DE;DE053C1;Marburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4908,168;1;0;100
+DE;DE056C1;Brandenburg an der Havel;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;69860,364;1;0;100
+DE;DE056C1;Brandenburg an der Havel;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;69860,364;1;0;100
+DE;DE056C1;Brandenburg an der Havel;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;69860,364;1;0;100
+DE;DE056C1;Brandenburg an der Havel;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;69860,364;1;0;100
+DE;DE056C1;Brandenburg an der Havel;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;69860,364;1;0;100
+DE;DE056C1;Brandenburg an der Havel;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;69860,364;1;0;100
+DE;DE057C1;Gießen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4541,872;1;0;100
+DE;DE057C1;Gießen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4541,872;1;0;100
+DE;DE057C1;Gießen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4541,872;1;0;100
+DE;DE061C1;Aschaffenburg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;66121,496;1;0;100
+DE;DE065C1;Fulda;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4201,43;1;0;100
+DE;DE065C1;Fulda;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4201,43;1;0;100
+DE;DE065C1;Fulda;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4201,43;1;0;100
+DE;DE502C1;Mannheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;18866,724;1;0;100
+DE;DE502C1;Mannheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;18866,724;1;0;100
+DE;DE502C1;Mannheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;18866,724;1;0;100
+DE;DE502C1;Mannheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;18866,724;1;0;100
+DE;DE502C1;Mannheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;18866,724;1;0;100
+DE;DE502C1;Mannheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;18866,724;1;0;100
+DE;DE502C1;Mannheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;18866,724;1;0;100
+DE;DE503C1;Gelsenkirchen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;247015,734;1;0;100
+DE;DE503C1;Gelsenkirchen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;247015,734;1;0;100
+DE;DE503C1;Gelsenkirchen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;247015,734;1;0;100
+DE;DE505C1;Chemnitz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;15246,11;1;0;100
+DE;DE505C1;Chemnitz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;15246,11;1;0;100
+DE;DE505C1;Chemnitz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;15246,11;1;0;100
+DE;DE510C1;Lübeck;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;200087,594;1;0;100
+DE;DE510C1;Lübeck;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;200087,594;1;0;100
+DE;DE510C1;Lübeck;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;200087,594;1;0;100
+DE;DE510C1;Lübeck;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;200087,594;2;0;100
+DE;DE510C1;Lübeck;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;200087,594;2;0;100
+DE;DE510C1;Lübeck;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;200087,594;2;0;100
+DE;DE513C1;Kassel;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;180383,028;1;0;100
+DE;DE513C1;Kassel;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;180383,028;1;0;100
+DE;DE513C1;Kassel;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;180383,028;1;0;100
+DE;DE513C1;Kassel;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;180383,028;1;0;100
+DE;DE513C1;Kassel;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;180383,028;1;0;100
+DE;DE517C1;Osnabrück;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;156798,894;1;0;100
+DE;DE517C1;Osnabrück;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;167163;2;0;100
+DE;DE517C1;Osnabrück;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;167163;2;0;100
+DE;DE517C1;Osnabrück;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;167163;2;0;100
+DE;DE517C1;Osnabrück;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;167163;2;0;100
+DE;DE518C1;Ludwigshafen am Rhein;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;10024,718;1;0;100
+DE;DE518C1;Ludwigshafen am Rhein;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;10024,718;1;0;100
+DE;DE518C1;Ludwigshafen am Rhein;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;10024,718;1;0;100
+DE;DE518C1;Ludwigshafen am Rhein;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;10024,718;1;0;100
+DE;DE518C1;Ludwigshafen am Rhein;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;10024,718;1;0;100
+DE;DE520C1;Oldenburg (Oldenburg);PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;9622,152;1;0;100
+DE;DE520C1;Oldenburg (Oldenburg);PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;9622,152;1;0;100
+DE;DE520C1;Oldenburg (Oldenburg);PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;9622,152;1;0;100
+DE;DE527C1;Bremerhaven;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;108969,336;1;0;100
+DE;DE529C1;Heilbronn;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;7572,06;2;0;100
+DE;DE532C1;Ulm;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;109219,782;1;0;100
+DE;DE532C1;Ulm;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;109219,782;1;0;100
+DE;DE533C1;Pforzheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;7403,916;1;0;100
+DE;DE533C1;Pforzheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;7403,916;1;0;100
+DE;DE537C1;Reutlingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;6430,082;1;0;100
+DE;DE537C1;Reutlingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;6430,082;1;0;100
+DE;DE539C1;Cottbus;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;6550,238;1;0;100
+DE;DE539C1;Cottbus;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;6550,238;1;0;0;100;0
+DE;DE539C1;Cottbus;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;6550,238;1;0;100
+DE;DE539C1;Cottbus;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;105649;2;0;100
+DE;DE539C1;Cottbus;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;105649;2;0;100
+DE;DE539C1;Cottbus;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;6550,238;1;99098,762;2;6,2;93,8
+DE;DE539C1;Cottbus;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;99098,762;2;0;100
+DE;DE539C1;Cottbus;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;105649;3;0;100
+DE;DE546C1;Wuppertal;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;333457,124;1;0;100
+DE;DE546C1;Wuppertal;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;333457,124;2;0;100
+DE;DE546C1;Wuppertal;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;333457,124;2;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;489882;2;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;489882;2;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;457549,788;1;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;489882;2;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;489882;3;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;489882;3;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;489882;3;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;489882;3;0;100
+DK;DK001C1;København;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;489882;3;0;100
+DK;DK002C1;Århus;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;292079;2;0;100
+DK;DK002C1;Århus;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;19277,214;1;0;100
+DK;DK002C1;Århus;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;292079;2;0;100
+DK;DK002C1;Århus;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;292079;2;0;100
+DK;DK002C1;Århus;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;19277,214;1;0;100
+DK;DK004C1;Aalborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;192367;2;0;100
+DK;DK004C1;Aalborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;179670,778;1;0;100
+DK;DK004C1;Aalborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;192367;2;0;100
+DK;DK004C1;Aalborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;192367;2;0;100
+DK;DK004C1;Aalborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;179670,778;1;0;100
+EE;EE001C1;Tallinn;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;382006,692;1;0;100
+EE;EE001C1;Tallinn;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;382006,692;1;0;100
+EE;EE001C1;Tallinn;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;382006,692;1;0;100
+EE;EE001C1;Tallinn;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;382006,692;1;0;100
+EE;EE001C1;Tallinn;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;382006,692;1;0;100
+EE;EE001C1;Tallinn;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;382006,692;1;0;100
+EE;EE002C1;Tartu;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;92662,704;1;0;100
+EE;EE002C1;Tartu;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;92662,704;1;0;100
+EE;EE002C1;Tartu;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;92662,704;1;0;100
+EE;EE002C1;Tartu;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;92662,704;1;0;100
+EE;EE003C1;Narva;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;62479,188;1;0;100
+EE;EE003C1;Narva;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;62479,188;1;0;100
+EE;EE003C1;Narva;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;62479,188;1;0;100
+EE;EE003C1;Narva;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;62479,188;1;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;3116549;6;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;3116549;7;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;3116549;3;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;3116549;3;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;3116549;3;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;3116549;2;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;3116549;5;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;3116549;6;0;100
+ES;ES001C1;Madrid;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;3116549;6;0;100
+ES;ES002C1;Barcelona;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;1512981,179;1;0;0;100;0
+ES;ES002C1;Barcelona;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;1512981,179;1;0;100
+ES;ES002C1;Barcelona;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1512981,179;1;0;100
+ES;ES002C1;Barcelona;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1597657;4;0;100
+ES;ES002C1;Barcelona;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;1597657;6;0;100
+ES;ES002C1;Barcelona;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1597657;5;0;100
+ES;ES003C1;Valencia;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;768352,238;2;0;100
+ES;ES003C1;Valencia;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;811354;3;0;100
+ES;ES003C1;Valencia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;811354;3;0;100
+ES;ES003C1;Valencia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;811354;2;0;100
+ES;ES004C1;Sevilla;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;37073,288;1;0;100
+ES;ES004C1;Sevilla;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;37073,288;1;0;100
+ES;ES005C1;Zaragoza;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;619948,815;1;0;100
+ES;ES005C1;Zaragoza;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;619948,815;1;0;100
+ES;ES007C1;Murcia;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;22011,059;1;0;100
+ES;ES008C1;Las Palmas;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;356883,579;1;0;100
+ES;ES008C1;Las Palmas;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;356883,579;1;0;100
+ES;ES008C1;Las Palmas;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;356883,579;1;0;100
+ES;ES009C1;Valladolid;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;16771,797;1;0;100
+ES;ES009C1;Valladolid;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;16771,797;1;0;100
+ES;ES009C1;Valladolid;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;16771,797;2;0;100
+ES;ES009C1;Valladolid;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;16771,797;2;0;100
+ES;ES009C1;Valladolid;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;16771,797;2;0;100
+ES;ES009C1;Valladolid;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;16771,797;3;0;100
+ES;ES010C1;Palma de Mallorca;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;20144,717;1;0;100
+ES;ES010C1;Palma de Mallorca;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;20144,717;1;0;100
+ES;ES011C1;Santiago de Compostela;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4962,867;1;0;100
+ES;ES011C1;Santiago de Compostela;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4962,867;1;0;100
+ES;ES011C1;Santiago de Compostela;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4962,867;1;0;100
+ES;ES012C1;Vitoria/Gasteiz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;11895,32;1;0;100
+ES;ES014C1;Pamplona/Iruña;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;198551,808;1;0;100
+ES;ES014C1;Pamplona/Iruña;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;198551,808;1;0;100
+ES;ES014C1;Pamplona/Iruña;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;198551,808;1;0;100
+ES;ES014C1;Pamplona/Iruña;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;198551,808;1;0;100
+ES;ES014C1;Pamplona/Iruña;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;198551,808;1;0;100
+ES;ES014C1;Pamplona/Iruña;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;198551,808;1;0;100
+ES;ES014C1;Pamplona/Iruña;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;198551,808;1;0;100
+ES;ES016C1;Toledo;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;73875,47;1;0;100
+ES;ES016C1;Toledo;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;73875,47;1;0;100
+ES;ES016C1;Toledo;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;73875,47;1;0;100
+ES;ES017C1;Badajoz;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;136090,529;1;0;100
+ES;ES017C1;Badajoz;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;136090,529;1;0;100
+ES;ES019C1;Bilbao;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;331031,426;1;0;100
+ES;ES021C1;Alicante/Alacant;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;322877;2;0;100
+ES;ES021C1;Alicante/Alacant;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;305764,519;1;0;100
+ES;ES021C1;Alicante/Alacant;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;305764,519;1;0;100
+ES;ES021C1;Alicante/Alacant;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;305764,519;1;0;100
+ES;ES022C1;Vigo;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;278135,794;1;0;100
+ES;ES023C1;Gijón;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;14545,691;1;0;100
+ES;ES023C1;Gijón;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;14545,691;1;0;100
+ES;ES023C1;Gijón;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;274447;2;0;100
+ES;ES023C1;Gijón;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;274447;2;0;100
+ES;ES025C1;Santa Cruz de Tenerife;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;11590,57;1;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;4988,943;1;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;4988,943;1;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;4988,943;1;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;4988,943;1;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;4988,943;1;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;94131;2;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4988,943;1;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;94131;2;0;100
+ES;ES029C1;Telde;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;94131;3;0;100
+ES;ES034C1;Cáceres;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;85455,386;1;0;100
+ES;ES034C1;Cáceres;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;85455,386;1;0;100
+ES;ES034C1;Cáceres;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;85455,386;1;0;100
+ES;ES046C1;Gandia;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;4038,494;1;0;100
+ES;ES046C1;Gandia;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4038,494;1;0;100
+ES;ES046C1;Gandia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4038,494;1;0;100
+ES;ES046C1;Gandia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4038,494;1;0;100
+ES;ES051C1;Getxo;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4864,923;1;0;100
+ES;ES054C1;Benidorm;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;61240,596;1;0;100
+ES;ES054C1;Benidorm;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;61240,596;1;0;100
+ES;ES054C1;Benidorm;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;61240,596;1;0;100
+ES;ES054C1;Benidorm;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;61240,596;1;0;100
+ES;ES072C1;Arrecife;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;51393,69;1;0;100
+ES;ES072C1;Arrecife;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;51393,69;1;0;100
+ES;ES072C1;Arrecife;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;51393,69;1;0;100
+ES;ES072C1;Arrecife;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;51393,69;1;0;100
+ES;ES073C1;Elda;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;52629,525;1;0;100
+ES;ES073C1;Elda;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;52629,525;1;0;100
+ES;ES073C1;Elda;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;52629,525;1;0;100
+ES;ES073C1;Elda;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;52629,525;1;0;100
+ES;ES505C1;Elche/Elx;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;208063,476;1;11644,524;1;94,7;5,3
+ES;ES510C1;San Sebastián/Donostia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;9880,366;1;0;100
+ES;ES516C1;Salamanca;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;8333,826;1;0;100
+ES;ES516C1;Salamanca;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;8333,826;1;0;0;100;0
+ES;ES516C1;Salamanca;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;148908,174;1;0;100
+ES;ES517C1;Alcorcón;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;154769,157;1;0;100
+ES;ES517C1;Alcorcón;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;154769,157;1;0;100
+ES;ES517C1;Alcorcón;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;154769,157;1;0;100
+ES;ES517C1;Alcorcón;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;154769,157;1;0;100
+ES;ES519C1;Albacete;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;149516,148;1;0;100
+ES;ES519C1;Albacete;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;149516,148;1;0;100
+ES;ES519C1;Albacete;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;149516,148;1;0;100
+ES;ES519C1;Albacete;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;149516,148;1;0;100
+ES;ES520C1;Castellón de la Plana/Castelló de la Plana;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;162231,517;1;0;100
+ES;ES520C1;Castellón de la Plana/Castelló de la Plana;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;162231,517;1;0;100
+ES;ES534C1;Torrejón de Ardoz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;104656,758;1;0;100
+ES;ES534C1;Torrejón de Ardoz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;104656,758;1;0;100
+ES;ES534C1;Torrejón de Ardoz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;104656,758;1;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;522438,15;1;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;543075;2;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;543075;3;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;543075;2;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;543075;2;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;543075;2;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;543075;2;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;543075;2;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;543075;3;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;543075;4;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;543075;4;0;100
+FI;FI001C2;Helsinki / Helsingfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;543075;3;0;100
+FI;FI002C1;Tampere / Tammerfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;190198,944;1;0;100
+FI;FI002C1;Tampere / Tammerfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;197712;2;0;100
+FI;FI002C1;Tampere / Tammerfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;197712;2;0;100
+FI;FI002C1;Tampere / Tammerfors;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;197712;2;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;5011,896;1;0;100
+FI;FI004C2;Oulu / Uleåborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;5011,896;1;0;100
+FI;FI005C1;Espoo / Esbo;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;8557,182;1;0;100
+FI;FI005C1;Espoo / Esbo;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;8557,182;1;0;100
+FI;FI005C1;Espoo / Esbo;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;8557,182;1;0;100
+FI;FI006C1;Vantaa / Vanda;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;7196,744;1;0;100
+FI;FI006C1;Vantaa / Vanda;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;7196,744;1;0;100
+FI;FI006C1;Vantaa / Vanda;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;7196,744;1;0;100
+FI;FI007C1;Lahti / Lahtis;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;3677,982;1;0;100
+FI;FI007C1;Lahti / Lahtis;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;3677,982;1;0;100
+FI;FI007C1;Lahti / Lahtis;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;3677,982;1;0;100
+FI;FI008C1;Kuopio;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;89887,356;1;0;100
+FI;FI008C1;Kuopio;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;89887,356;1;0;100
+FI;FI008C1;Kuopio;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;89887,356;1;0;100
+FI;FI008C1;Kuopio;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;89887,356;1;0;100
+FI;FI008C1;Kuopio;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;89887,356;1;0;100
+FI;FI008C1;Kuopio;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;89887,356;1;0;100
+FR;FR001C1;Paris;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;93388,134;1;2130138,866;1;4,2;95,8
+FR;FR001C1;Paris;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;93388,134;1;2130138,866;1;4,2;95,8
+FR;FR001C1;Paris;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;93388,134;1;2130138,866;1;4,2;95,8
+FR;FR001C1;Paris;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;93388,134;1;2130138,866;1;4,2;95,8
+FR;FR001C1;Paris;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;93388,134;1;2130138,866;1;4,2;95,8
+FR;FR001C1;Paris;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;2130138,866;1;0;100
+FR;FR001C1;Paris;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;93388,134;1;2130138,866;1;4,2;95,8
+FR;FR001C1;Paris;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;2130138,866;1;0;100
+FR;FR003C2;Lyon;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;1191962,76;1;0;100
+FR;FR003C2;Lyon;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;1244220;2;0;100
+FR;FR003C2;Lyon;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;1244220;3;0;100
+FR;FR003C2;Lyon;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;52257,24;1;1191962,76;2;4,2;95,8
+FR;FR003C2;Lyon;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1191962,76;2;0;100
+FR;FR003C2;Lyon;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;52257,24;1;1191962,76;2;4,2;95,8
+FR;FR003C2;Lyon;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1244220;3;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;654874,43;1;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;654874,43;2;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;683585;2;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;683585;2;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;683585;2;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;683585;3;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;654874,43;2;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;654874,43;2;0;100
+FR;FR004C2;Toulouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;654874,43;2;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;444853,048;1;0;100
+FR;FR006C2;Strasbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;444853,048;1;0;100
+FR;FR007C1;Bordeaux;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;668845,902;2;0;100
+FR;FR007C1;Bordeaux;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;668845,902;1;0;100
+FR;FR007C1;Bordeaux;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;668845,902;2;0;100
+FR;FR007C1;Bordeaux;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;668845,902;2;0;100
+FR;FR007C1;Bordeaux;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;668845,902;3;0;100
+FR;FR007C1;Bordeaux;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;668845,902;2;0;100
+FR;FR007C1;Bordeaux;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;668845,902;2;0;100
+FR;FR007C1;Bordeaux;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;668845,902;2;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;551409,472;1;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;575584;2;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;575584;2;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;551409,472;1;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;551409,472;1;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;551409,472;1;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;551409,472;1;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;575584;2;0;100
+FR;FR008C1;Nantes;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;575584;2;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;1051734,552;1;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;1051734,552;2;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;1051734,552;2;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;1051734,552;2;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;1051734,552;1;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;1051734,552;1;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;1051734,552;1;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1051734,552;1;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1051734,552;1;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;1051734,552;1;0;100
+FR;FR009C1;Lille;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1051734,552;1;0;100
+FR;FR010C1;Montpellier;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;382127,998;1;0;0;100;0
+FR;FR010C1;Montpellier;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;382127,998;1;0;0;100;0
+FR;FR010C1;Montpellier;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;382127,998;1;0;100
+FR;FR010C1;Montpellier;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;382127,998;1;0;100
+FR;FR010C1;Montpellier;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;382127,998;1;0;100
+FR;FR010C1;Montpellier;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;382127,998;1;0;100
+FR;FR010C1;Montpellier;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;398881;2;0;100
+FR;FR011C1;Saint-Etienne;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;15579,816;1;0;100
+FR;FR011C1;Saint-Etienne;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;15579,816;1;0;100
+FR;FR011C1;Saint-Etienne;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;15579,816;1;0;100
+FR;FR011C1;Saint-Etienne;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;15579,816;1;0;100
+FR;FR011C1;Saint-Etienne;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;370948;2;0;100
+FR;FR011C1;Saint-Etienne;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;370948;2;0;100
+FR;FR011C1;Saint-Etienne;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;370948;2;0;100
+FR;FR011C1;Saint-Etienne;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;370948;3;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;232018,978;2;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;232018,978;1;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;232018,978;1;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;232018,978;2;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;232018,978;2;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;232018,978;1;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;232018,978;1;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;232018,978;1;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;232018,978;1;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;232018,978;1;0;100
+FR;FR012C1;Le Havre;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;232018,978;1;0;100
+FR;FR013C2;Rennes;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;16038,582;1;0;100
+FR;FR014C2;Amiens;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;164616,972;1;0;100
+FR;FR014C2;Amiens;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;164616,972;1;0;100
+FR;FR014C2;Amiens;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;164616,972;1;0;100
+FR;FR014C2;Amiens;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;164616,972;1;0;100
+FR;FR016C1;Nancy;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;243053,222;1;0;100
+FR;FR016C1;Nancy;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;243053,222;1;0;100
+FR;FR016C1;Nancy;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;243053,222;1;0;100
+FR;FR016C1;Nancy;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;243053,222;1;0;100
+FR;FR017C2;Metz;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;207224,022;1;0;100
+FR;FR017C2;Metz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;207224,022;1;0;100
+FR;FR017C2;Metz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;207224,022;1;0;100
+FR;FR017C2;Metz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;207224,022;1;0;100
+FR;FR018C1;Reims;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;196561,482;1;0;100
+FR;FR018C1;Reims;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;196561,482;1;0;100
+FR;FR018C1;Reims;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;196561,482;1;0;100
+FR;FR018C1;Reims;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;205179;2;0;100
+FR;FR018C1;Reims;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;8617,518;1;196561,482;1;4,2;95,8
+FR;FR018C1;Reims;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;205179;2;0;100
+FR;FR019C1;Orléans;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;255429,624;1;0;100
+FR;FR019C1;Orléans;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;255429,624;1;0;100
+FR;FR019C1;Orléans;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;255429,624;1;0;100
+FR;FR019C1;Orléans;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;255429,624;1;0;100
+FR;FR019C1;Orléans;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;255429,624;1;0;100
+FR;FR019C1;Orléans;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;255429,624;1;0;100
+FR;FR019C1;Orléans;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;255429,624;1;0;100
+FR;FR020C2;Dijon;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;230151,836;1;0;100
+FR;FR020C2;Dijon;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;230151,836;1;0;100
+FR;FR020C2;Dijon;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;230151,836;1;0;100
+FR;FR020C2;Dijon;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;230151,836;1;0;100
+FR;FR021C2;Poitiers;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;127127,558;1;0;100
+FR;FR021C2;Poitiers;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;127127,558;1;0;100
+FR;FR021C2;Poitiers;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;127127,558;1;0;100
+FR;FR021C2;Poitiers;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;127127,558;1;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;274213;2;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;274213;3;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;274213;3;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;274213;3;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;262696,054;2;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;274213;3;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;262696,054;2;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;274213;3;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;274213;3;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;274213;3;0;100
+FR;FR022C2;Clermont-Ferrand;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;274213;3;0;100
+FR;FR023C2;Caen;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;204036,756;1;0;100
+FR;FR023C2;Caen;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;204036,756;1;0;100
+FR;FR023C2;Caen;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;204036,756;1;0;100
+FR;FR023C2;Caen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;204036,756;1;0;100
+FR;FR023C2;Caen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;204036,756;1;0;100
+FR;FR023C2;Caen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;204036,756;1;0;100
+FR;FR023C2;Caen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;204036,756;1;0;100
+FR;FR024C2;Limoges;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;185633,576;1;0;100
+FR;FR024C2;Limoges;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;185633,576;1;0;100
+FR;FR025C1;Besançon;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;165731,126;1;0;100
+FR;FR025C1;Besançon;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;165731,126;1;0;100
+FR;FR025C1;Besançon;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;165731,126;1;0;100
+FR;FR025C1;Besançon;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;165731,126;1;0;100
+FR;FR025C1;Besançon;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;165731,126;1;0;100
+FR;FR025C1;Besançon;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;165731,126;1;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;16261,35;1;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;387175;2;0;100
+FR;FR026C2;Grenoble;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;387175;2;0;100
+FR;FR028C1;Saint Denis;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;223064,552;1;0;100
+FR;FR028C1;Saint Denis;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;223064,552;1;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;4620,672;1;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;110016;2;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;110016;2;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;4620,672;1;105395,328;1;4,2;95,8
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;105395,328;1;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;105395,328;1;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;105395,328;1;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;105395,328;1;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;105395,328;1;0;100
+FR;FR030C1;Fort-de-France;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;105395,328;1;0;100
+FR;FR032C2;Toulon;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;398880,544;1;0;100
+FR;FR032C2;Toulon;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;398880,544;1;0;100
+FR;FR032C2;Toulon;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;398880,544;1;0;100
+FR;FR034C2;Valenciennes;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;7934,724;1;0;100
+FR;FR034C2;Valenciennes;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;7934,724;1;0;100
+FR;FR034C2;Valenciennes;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;7934,724;1;0;100
+FR;FR034C2;Valenciennes;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;188922;2;0;100
+FR;FR034C2;Valenciennes;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;7934,724;1;0;100
+FR;FR035C2;Tours;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;262324,35;1;0;100
+FR;FR035C2;Tours;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;262324,35;1;0;100
+FR;FR035C2;Tours;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;262324,35;1;0;100
+FR;FR035C2;Tours;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;262324,35;1;0;100
+FR;FR035C2;Tours;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;262324,35;1;0;100
+FR;FR036C2;Angers;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;249790,836;1;0;100
+FR;FR036C2;Angers;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;249790,836;1;0;100
+FR;FR036C2;Angers;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;249790,836;1;0;100
+FR;FR036C2;Angers;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;249790,836;1;0;100
+FR;FR037C1;Brest;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;198691,116;1;0;100
+FR;FR037C1;Brest;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;198691,116;1;0;100
+FR;FR038C2;Le Mans;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;173125,928;1;0;100
+FR;FR038C2;Le Mans;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;173125,928;1;0;100
+FR;FR038C2;Le Mans;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;173125,928;1;0;100
+FR;FR038C2;Le Mans;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;173125,928;1;0;100
+FR;FR038C2;Le Mans;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;173125,928;1;0;100
+FR;FR039C2;Avignon;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;167923,988;1;0;100
+FR;FR039C2;Avignon;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;167923,988;1;0;100
+FR;FR040C2;Mulhouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;238684,742;1;0;100
+FR;FR040C2;Mulhouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;238684,742;1;0;100
+FR;FR040C2;Mulhouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;238684,742;1;0;100
+FR;FR040C2;Mulhouse;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;238684,742;1;0;100
+FR;FR042C1;Dunkerque;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;190654,454;1;0;100
+FR;FR042C1;Dunkerque;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;199013;2;0;100
+FR;FR042C1;Dunkerque;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;199013;2;0;100
+FR;FR042C1;Dunkerque;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;199013;2;0;100
+FR;FR042C1;Dunkerque;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;190654,454;1;0;100
+FR;FR042C1;Dunkerque;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;190654,454;2;0;100
+FR;FR042C1;Dunkerque;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;190654,454;2;0;100
+FR;FR042C1;Dunkerque;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;190654,454;2;0;100
+FR;FR043C2;Perpignan;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;234050,896;1;0;100
+FR;FR043C2;Perpignan;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;234050,896;1;0;100
+FR;FR043C2;Perpignan;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;234050,896;1;0;100
+FR;FR044C2;Nimes;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;219088,852;1;0;100
+FR;FR044C2;Nimes;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;219088,852;1;0;100
+FR;FR044C2;Nimes;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;219088,852;1;0;100
+FR;FR044C2;Nimes;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;219088,852;1;0;100
+FR;FR045C2;Pau;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;141495,642;1;0;100
+FR;FR045C2;Pau;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;141495,642;1;0;100
+FR;FR045C2;Pau;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;141495,642;1;0;100
+FR;FR045C2;Pau;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;141495,642;1;0;100
+FR;FR045C2;Pau;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;141495,642;1;0;100
+FR;FR045C2;Pau;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;141495,642;1;0;100
+FR;FR045C2;Pau;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;141495,642;1;0;100
+FR;FR046C2;Bayonne;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;114972,454;1;0;100
+FR;FR046C2;Bayonne;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;114972,454;1;0;100
+FR;FR046C2;Bayonne;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;114972,454;1;0;100
+FR;FR046C2;Bayonne;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;114972,454;1;0;100
+FR;FR046C2;Bayonne;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;114972,454;1;0;100
+FR;FR046C2;Bayonne;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;114972,454;1;0;100
+FR;FR047C2;Annemasse;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;70573,944;1;0;100
+FR;FR047C2;Annemasse;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;70573,944;1;0;100
+FR;FR047C2;Annemasse;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;70573,944;1;0;100
+FR;FR047C2;Annemasse;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;70573,944;1;0;100
+FR;FR048C1;Annecy;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;128522,406;1;0;100
+FR;FR048C1;Annecy;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;128522,406;1;0;100
+FR;FR048C1;Annecy;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;128522,406;1;0;100
+FR;FR048C1;Annecy;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;128522,406;1;0;100
+FR;FR049C2;Lorient;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;175425,128;1;0;100
+FR;FR049C2;Lorient;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;175425,128;1;0;100
+FR;FR050C2;Montbelliard;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;109638,31;1;0;100
+FR;FR050C2;Montbelliard;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;109638,31;1;0;100
+FR;FR050C2;Montbelliard;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;109638,31;1;0;100
+FR;FR050C2;Montbelliard;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;109638,31;1;0;100
+FR;FR050C2;Montbelliard;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;109638,31;1;0;100
+FR;FR050C2;Montbelliard;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;109638,31;1;0;100
+FR;FR050C2;Montbelliard;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;109638,31;1;0;100
+FR;FR050C2;Montbelliard;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;109638,31;1;0;100
+FR;FR051C2;Troyes;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;119404,162;1;0;100
+FR;FR051C2;Troyes;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;119404,162;1;0;100
+FR;FR051C2;Troyes;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;119404,162;1;0;100
+FR;FR052C2;Saint-Nazaire;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;110820,482;1;0;100
+FR;FR052C2;Saint-Nazaire;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;110820,482;1;0;100
+FR;FR052C2;Saint-Nazaire;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;110820,482;1;0;100
+FR;FR052C2;Saint-Nazaire;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;110820,482;1;0;100
+FR;FR052C2;Saint-Nazaire;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;110820,482;1;0;100
+FR;FR053C1;La Rochelle;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;137906,016;1;0;100
+FR;FR053C1;La Rochelle;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;137906,016;1;0;100
+FR;FR053C1;La Rochelle;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;137906,016;1;0;100
+FR;FR053C1;La Rochelle;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;137906,016;1;0;100
+FR;FR056C1;Angoulème;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;97762,942;1;0;100
+FR;FR056C1;Angoulème;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;97762,942;1;0;100
+FR;FR056C1;Angoulème;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;97762,942;1;0;100
+FR;FR056C1;Angoulème;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;97762,942;1;0;100
+FR;FR056C1;Angoulème;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;97762,942;1;0;100
+FR;FR058C2;Chambery;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;113359,182;1;0;100
+FR;FR058C2;Chambery;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;113359,182;1;0;100
+FR;FR058C2;Chambery;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;113359,182;1;0;100
+FR;FR058C2;Chambery;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;113359,182;1;0;100
+FR;FR059C2;Chalon-sur-Saône;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;98554,25;1;0;100
+FR;FR059C2;Chalon-sur-Saône;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;98554,25;1;0;100
+FR;FR059C2;Chalon-sur-Saône;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;98554,25;1;0;100
+FR;FR059C2;Chalon-sur-Saône;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4320,75;1;0;100
+FR;FR059C2;Chalon-sur-Saône;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4320,75;1;0;100
+FR;FR060C2;Chartres;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;101365,98;1;0;100
+FR;FR061C2;Niort;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;95947,532;1;0;100
+FR;FR061C2;Niort;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;95947,532;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;91754,366;1;0;100
+FR;FR062C1;Calais;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;91754,366;1;0;100
+FR;FR069C1;Cherbourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;80442,302;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;69172,39;1;0;100
+FR;FR079C2;Saint-Quentin;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;69172,39;1;0;100
+FR;FR084C1;Creil;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;67881,964;1;0;100
+FR;FR084C1;Creil;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;67881,964;1;0;100
+FR;FR084C1;Creil;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;67881,964;1;0;100
+FR;FR084C1;Creil;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;67881,964;1;0;100
+FR;FR084C1;Creil;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;67881,964;1;0;100
+FR;FR084C1;Creil;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;67881,964;1;0;100
+FR;FR202C1;Aix-en-Provence;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;334138,904;1;0;100
+FR;FR202C1;Aix-en-Provence;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;334138,904;1;0;100
+FR;FR202C1;Aix-en-Provence;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;334138,904;1;0;100
+FR;FR203C1;Marseille;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;988554,452;1;0;100
+FR;FR203C1;Marseille;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;988554,452;1;0;100
+FR;FR203C1;Marseille;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;988554,452;1;0;100
+FR;FR203C1;Marseille;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;988554,452;1;0;100
+FR;FR203C1;Marseille;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;988554,452;1;0;100
+FR;FR203C1;Marseille;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;1031894;2;0;100
+FR;FR203C1;Marseille;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1031894;2;0;100
+FR;FR209C2;Douai;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;6340,908;1;0;100
+FR;FR209C2;Douai;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;6340,908;1;0;100
+FR;FR209C2;Douai;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;144633,092;1;0;100
+FR;FR209C2;Douai;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;144633,092;1;0;100
+FR;FR209C2;Douai;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;144633,092;1;0;0;100;0
+FR;FR209C2;Douai;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;144633,092;1;0;100
+FR;FR214C1;Valence;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;4940,04;1;0;100
+FR;FR214C1;Valence;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;117620;2;0;100
+FR;FR214C1;Valence;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;112679,96;1;0;100
+FR;FR214C1;Valence;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;117620;2;0;100
+FR;FR214C1;Valence;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;117620;2;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;458573,524;1;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;458573,524;2;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;458573,524;2;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;458573,524;2;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;458573,524;2;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;458573,524;2;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;458573,524;1;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;458573,524;1;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;458573,524;1;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;458573,524;1;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;458573,524;2;0;100
+FR;FR215C2;Rouen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;458573,524;2;0;100
+FR;FR304C1;Melun;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4185,3;1;0;100
+FR;FR304C1;Melun;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4185,3;1;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);1998;0;0;431532,412;1;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);1999;0;0;7440214;2;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2000;431532,412;1;7008681,588;1;5,8;94,2
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2001;0;0;7440214;2;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;7440214;2;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;7440214;2;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;7440214;2;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;7440214;2;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;7440214;2;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;7440214;2;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;7008681,588;1;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;7440214;9;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;7440214;9;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;7440214;11;0;100
+GB;UK001C;London;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;7440214;11;0;100
+GB;UK002C1;Birmingham;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;939296,46;1;0;100
+GB;UK002C1;Birmingham;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;57833,54;1;0;100
+GB;UK002C1;Birmingham;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;997130;2;0;100
+GB;UK002C1;Birmingham;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;997130;3;0;100
+GB;UK003C1;Leeds;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;702470,124;1;0;100
+GB;UK003C1;Leeds;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;745722;2;0;100
+GB;UK003C1;Leeds;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;745722;2;0;100
+GB;UK003C1;Leeds;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;745722;2;0;100
+GB;UK004C1;Glasgow;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;531761,826;1;0;100
+GB;UK004C1;Glasgow;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;564503;2;0;100
+GB;UK004C1;Glasgow;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;564503;2;0;100
+GB;UK004C1;Glasgow;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;32741,174;1;0;100
+GB;UK007C1;Edinburgh;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;424128,906;1;0;100
+GB;UK007C1;Edinburgh;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;424128,906;1;0;100
+GB;UK007C1;Edinburgh;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;424128,906;1;0;100
+GB;UK008C1;Manchester;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;435071,178;1;0;100
+GB;UK008C1;Manchester;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;435071,178;1;0;100
+GB;UK008C1;Manchester;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;435071,178;1;0;100
+GB;UK009C1;Cardiff;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;298200,462;1;0;100
+GB;UK009C1;Cardiff;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;298200,462;1;0;100
+GB;UK010C1;Sheffield;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;491149,38;1;0;100
+GB;UK010C1;Sheffield;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;491149,38;1;0;100
+GB;UK010C1;Sheffield;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;491149,38;1;0;100
+GB;UK010C1;Sheffield;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;491149,38;1;0;100
+GB;UK011C1;Bristol;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;390217,848;1;0;100
+GB;UK011C1;Bristol;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;390217,848;1;0;100
+GB;UK011C1;Bristol;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;390217,848;1;0;100
+GB;UK011C1;Bristol;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;390217,848;1;0;100
+GB;UK012C1;Belfast;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;265358,574;1;0;100
+GB;UK012C1;Belfast;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;265358,574;1;0;100
+GB;UK012C1;Belfast;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;265358,574;1;0;100
+GB;UK012C1;Belfast;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;265358,574;1;0;100
+GB;UK013C1;Newcastle upon Tyne;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;252031,158;1;0;100
+GB;UK013C1;Newcastle upon Tyne;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;252031,158;1;0;100
+GB;UK013C1;Newcastle upon Tyne;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;252031,158;1;0;100
+GB;UK013C1;Newcastle upon Tyne;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;252031,158;1;0;100
+GB;UK014C1;Leicester;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;268706,442;1;0;100
+GB;UK014C1;Leicester;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;268706,442;1;0;100
+GB;UK015C1;Derry;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;99171,876;1;0;100
+GB;UK016C1;Aberdeen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;196276,062;1;0;100
+GB;UK016C1;Aberdeen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;196276,062;1;0;100
+GB;UK016C1;Aberdeen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;196276,062;1;0;100
+GB;UK022C1;Wrexham;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;7580,716;1;0;100
+GB;UK022C1;Wrexham;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;7580,716;1;0;100
+GB;UK022C1;Wrexham;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;7580,716;1;0;100
+GB;UK023C1;Portsmouth;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;182163,018;1;0;100
+GB;UK023C1;Portsmouth;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;182163,018;1;0;100
+GB;UK023C1;Portsmouth;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;182163,018;1;0;100
+GB;UK025C1;Coventry;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;287156,454;1;0;100
+GB;UK025C1;Coventry;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;287156,454;1;0;100
+GB;UK026C1;Kingston-upon-Hull;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;231314,694;1;0;100
+GB;UK026C1;Kingston-upon-Hull;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;231314,694;1;0;100
+GB;UK026C1;Kingston-upon-Hull;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;231314,694;1;0;100
+GB;UK026C1;Kingston-upon-Hull;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;231314,694;1;0;100
+GB;UK027C1;Stoke-on-trent;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;223674,132;1;0;100
+GB;UK027C1;Stoke-on-trent;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;223674,132;1;0;100
+GB;UK027C1;Stoke-on-trent;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;223674,132;1;0;100
+GB;UK027C1;Stoke-on-trent;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;223674,132;1;0;100
+GB;UK029C1;Nottingham;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;260272,716;1;0;100
+GB;UK029C1;Nottingham;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;260272,716;1;0;100
+GB;UK029C1;Nottingham;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;260272,716;1;0;100
+GB;UK030C1;Wirral;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;293045,838;1;0;100
+GB;UK030C1;Wirral;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;293045,838;1;0;100
+GB;UK030C1;Wirral;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;293045,838;1;0;100
+GB;UK030C1;Wirral;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;293045,838;1;0;100
+GB;UK032C1;Thurrock;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;8645,248;1;0;100
+GB;UK032C1;Thurrock;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;8645,248;1;0;100
+GB;UK047C1;Chesterfield;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;91137,558;1;0;100
+GB;UK047C1;Chesterfield;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;96749;2;0;100
+GB;UK047C1;Chesterfield;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;96749;2;0;100
+GB;UK047C1;Chesterfield;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;96749;2;0;100
+GB;UK055C1;Eastbourne;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;86299,446;1;0;100
+GB;UK055C1;Eastbourne;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;86299,446;1;0;100
+GB;UK055C1;Eastbourne;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;86299,446;1;0;100
+GB;UK505C1;Wigan;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;287917,59;1;0;100
+GB;UK510C1;Sunderland;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;260733,354;1;0;100
+GB;UK510C1;Sunderland;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;260733,354;1;0;100
+GB;UK513C1;Medway;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;14381,912;1;0;100
+GB;UK513C1;Medway;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;14381,912;1;0;100
+GB;UK515C1;Brighton and Hove;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;235294,644;1;0;100
+GB;UK515C1;Brighton and Hove;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;235294,644;1;0;100
+GB;UK515C1;Brighton and Hove;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;235294,644;1;0;100
+GB;UK516C1;Plymouth;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;227023,884;1;0;100
+GB;UK516C1;Plymouth;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;227023,884;1;0;100
+GB;UK517C1;Swansea;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;13121,862;1;0;100
+GB;UK517C1;Swansea;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;13121,862;1;0;100
+GB;UK517C1;Swansea;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;13121,862;1;0;100
+GB;UK517C1;Swansea;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;13121,862;1;0;100
+GB;UK520C1;Southampton;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;214857,012;1;0;100
+GB;UK520C1;Southampton;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;214857,012;1;0;100
+GB;UK520C1;Southampton;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;214857,012;1;0;100
+GB;UK528C1;Northampton;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;180374,16;1;0;100
+GB;UK528C1;Northampton;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;180374,16;1;0;100
+GB;UK528C1;Northampton;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;180374,16;1;0;100
+GB;UK533C1;York;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;180987,402;1;0;100
+GB;UK533C1;York;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;180987,402;1;0;100
+GB;UK533C1;York;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;192131;2;0;100
+GB;UK536C1;Stockton-on-Tees;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;10934,218;1;0;100
+GB;UK536C1;Stockton-on-Tees;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;10934,218;1;0;100
+GB;UK536C1;Stockton-on-Tees;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;10934,218;1;0;100
+GB;UK536C1;Stockton-on-Tees;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;10934,218;1;0;100
+GB;UK539C1;Bournemouth;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;149994,66;1;0;100
+GB;UK539C1;Bournemouth;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;149994,66;1;0;100
+GB;UK539C1;Bournemouth;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;149994,66;1;0;100
+GB;UK541C1;Southend-on-Sea;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;145755,66;1;0;100
+GB;UK541C1;Southend-on-Sea;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;145755,66;1;0;100
+GB;UK552C1;Reading;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;121155,33;1;0;100
+GB;UK552C1;Reading;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;121155,33;1;0;100
+GB;UK552C1;Reading;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;121155,33;1;0;100
+GB;UK552C1;Reading;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;121155,33;1;0;100
+GB;UK553C1;Blackpool;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;137987,928;1;0;100
+GB;UK558C1;Newport;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;133185,612;1;0;100
+GB;UK558C1;Newport;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;133185,612;1;0;100
+GB;UK558C1;Newport;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;133185,612;1;0;100
+GB;UK560C1;Oxford;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;132789,972;1;0;100
+GB;UK560C1;Oxford;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;132789,972;1;0;100
+GB;UK560C1;Oxford;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;132789,972;1;0;100
+GB;UK560C1;Oxford;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;132789,972;1;0;100
+GB;UK562C1;Preston;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;125019,414;1;0;100
+GB;UK562C1;Preston;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;125019,414;1;0;100
+GB;UK562C1;Preston;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;125019,414;1;0;100
+GB;UK562C1;Preston;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;125019,414;1;0;100
+GB;UK564C1;Warwick;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;125523,384;1;0;100
+GB;UK564C1;Warwick;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;125523,384;1;0;100
+GB;UK564C1;Warwick;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;125523,384;1;0;100
+GB;UK566C1;Norwich;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;121272,138;1;0;100
+GB;UK566C1;Norwich;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;121272,138;1;0;100
+GB;UK566C1;Norwich;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;121272,138;1;0;100
+GB;UK575C1;Carlisle;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;6038,554;1;0;100
+GB;UK575C1;Carlisle;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;6038,554;1;0;100
+GB;UK575C1;Carlisle;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;6038,554;1;0;100
+GB;UK575C1;Carlisle;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;6038,554;1;0;100
+GR;EL001C1;Athina;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;30037,28;1;0;100
+GR;EL001C1;Athina;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;30037,28;1;0;100
+HU;HU001C1;Budapest;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1613594,822;1;0;100
+HU;HU001C1;Budapest;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1613594,822;1;0;100
+HU;HU001C1;Budapest;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;1613594,822;1;0;0;100;0
+HU;HU001C1;Budapest;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;1613594,822;1;0;100
+HU;HU006C1;Szeged;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;7664,055;1;0;100
+HU;HU006C1;Szeged;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;7664,055;1;0;100
+HU;HU006C1;Szeged;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;7664,055;1;0;100
+HU;HU006C1;Szeged;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;7664,055;1;0;100
+HU;HU006C1;Szeged;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;7664,055;1;0;0;100;0
+HU;HU006C1;Szeged;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;7664,055;1;0;100
+HU;HU006C1;Szeged;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;7664,055;1;0;100
+HU;HU006C1;Szeged;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;155400,945;1;0;100
+HU;HU007C1;Gyõr;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;6037,103;1;0;100
+HU;HU007C1;Gyõr;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;6037,103;1;0;100
+HU;HU007C1;Gyõr;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;6037,103;1;0;100
+HU;HU007C1;Gyõr;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;128449;2;0;100
+HU;HU007C1;Gyõr;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;128449;2;0;100
+HU;HU007C1;Gyõr;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;128449;2;0;100
+HU;HU007C1;Gyõr;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;128449;2;0;100
+IE;IE001C1;Dublin;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;496170;3;0;100
+IE;IE001C1;Dublin;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;496170;3;0;100
+IE;IE001C1;Dublin;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;496170;2;0;100
+IE;IE002C1;Cork;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;5552,68;1;0;100
+IE;IE002C1;Cork;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;5552,68;1;0;100
+IE;IE002C1;Cork;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;5552,68;1;0;100
+IE;IE002C1;Cork;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;5552,68;1;0;100
+IE;IE002C1;Cork;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;5552,68;1;0;100
+IE;IE002C1;Cork;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;5552,68;1;0;100
+IS;IS001C1;Reykjavík;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;191800;2;0;100
+IS;IS001C1;Reykjavík;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;191800;2;0;100
+IS;IS001C1;Reykjavík;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;191800;2;0;100
+IS;IS001C1;Reykjavík;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;1342,6;1;0;100
+IS;IS001C1;Reykjavík;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;191800;3;0;100
+IS;IS001C1;Reykjavík;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;190457,4;2;0;100
+IS;IS001C1;Reykjavík;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;191800;3;0;100
+IS;IS001C1;Reykjavík;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;191800;3;0;100
+IT;IT001C1;Roma;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;124279,239;1;2412031,761;1;4,9;95,1
+IT;IT001C1;Roma;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;2412031,761;2;0;100
+IT;IT001C1;Roma;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;2536311;3;0;100
+IT;IT001C1;Roma;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;2536311;4;0;100
+IT;IT001C1;Roma;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;2536311;4;0;100
+IT;IT001C1;Roma;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;62139,6195;1;2474171,3805;4;2,45;97,55
+IT;IT001C1;Roma;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;2536311;7;0;100
+IT;IT002C1;Milano;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;1303696;2;0;0;100;0
+IT;IT002C1;Milano;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;63881,104;1;0;0;100;0
+IT;IT002C1;Milano;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;1239814,896;1;0;0;100;0
+IT;IT002C1;Milano;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;1239814,896;1;0;0;100;0
+IT;IT002C1;Milano;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;1239814,896;1;0;0;100;0
+IT;IT002C1;Milano;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1239814,896;1;0;100
+IT;IT002C1;Milano;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;1239814,896;1;0;0;100;0
+IT;IT002C1;Milano;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;1239814,896;1;0;0;100;0
+IT;IT003C1;Napoli;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;48302,436;1;0;100
+IT;IT003C1;Napoli;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;48302,436;1;0;100
+IT;IT003C1;Napoli;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;48302,436;1;0;0;100;0
+IT;IT003C1;Napoli;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;48302,436;1;0;100
+IT;IT004C1;Torino;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;830638,587;1;0;0;100;0
+IT;IT004C1;Torino;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;830638,587;1;0;0;100;0
+IT;IT004C1;Torino;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;830638,587;1;0;0;100;0
+IT;IT004C1;Torino;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;830638,587;1;0;0;100;0
+IT;IT004C1;Torino;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;830638,587;1;0;0;100;0
+IT;IT004C1;Torino;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;830638,587;1;0;0;100;0
+IT;IT004C1;Torino;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;830638,587;1;0;0;100;0
+IT;IT006C1;Genova;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;591669,405;1;0;100
+IT;IT007C1;Firenze;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;363381;2;0;100
+IT;IT007C1;Firenze;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;363381;2;0;100
+IT;IT009C1;Bologna;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;382257;2;0;100
+IT;IT009C1;Bologna;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;382257;2;0;100
+IT;IT009C1;Bologna;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;382257;2;0;100
+IT;IT009C1;Bologna;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;382257;2;0;100
+IT;IT011C1;Venezia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;268623;2;0;0;100;0
+IT;IT011C1;Venezia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;255460,473;1;0;0;100;0
+IT;IT012C1;Verona;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;249929,457;1;0;0;100;0
+IT;IT012C1;Verona;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;249929,457;1;0;100
+IT;IT012C1;Verona;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;249929,457;1;0;0;100;0
+IT;IT012C1;Verona;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;249929,457;1;0;100
+IT;IT013C1;Cremona;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;70897;2;0;0;100;0
+IT;IT014C1;Trento;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;5485,06;1;0;100
+IT;IT014C1;Trento;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;5485,06;1;0;100
+IT;IT014C1;Trento;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;111940;2;0;100
+IT;IT014C1;Trento;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;111940;2;0;100
+IT;IT014C1;Trento;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;111940;2;0;100
+IT;IT015C1;Trieste;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;10041,668;1;0;100
+IT;IT015C1;Trieste;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;10041,668;1;0;100
+IT;IT016C1;Perugia;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;7883,12;2;0;100
+IT;IT016C1;Perugia;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;7883,12;2;0;100
+IT;IT016C1;Perugia;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;160880;3;0;100
+IT;IT016C1;Perugia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;160880;3;0;100
+IT;IT016C1;Perugia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;160880;3;0;100
+IT;IT017C1;Ancona;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;4967,228;2;0;0;100;0
+IT;IT017C1;Ancona;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;101372;2;0;100
+IT;IT017C1;Ancona;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;101372;2;0;100
+IT;IT017C1;Ancona;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;101372;2;0;100
+IT;IT017C1;Ancona;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;101372;2;0;100
+IT;IT017C1;Ancona;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;101372;2;0;100
+IT;IT021C1;Caserta;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;4118,646;1;0;100
+IT;IT022C1;Taranto;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;9749,579;1;0;100
+IT;IT022C1;Taranto;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;9749,579;1;0;100
+IT;IT022C1;Taranto;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;9749,579;1;0;100
+IT;IT026C1;Sassari;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;120833,109;1;0;100
+IT;IT027C1;Cagliari;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;161733;2;0;100
+IT;IT028C1;Padova;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;206177,751;1;0;0;100;0
+IT;IT028C1;Padova;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;206177,751;1;0;0;100;0
+IT;IT028C1;Padova;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;206177,751;1;0;0;100;0
+IT;IT029C1;Brescia;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;182093,676;1;0;0;100;0
+IT;IT029C1;Brescia;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;182093,676;1;0;0;100;0
+IT;IT029C1;Brescia;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;182093,676;1;0;0;100;0
+IT;IT029C1;Brescia;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;182093,676;1;0;0;100;0
+IT;IT029C1;Brescia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;182093,676;1;0;0;100;0
+IT;IT029C1;Brescia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;182093,676;1;0;0;100;0
+IT;IT030C1;Modena;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;171749,649;1;0;100
+IT;IT030C1;Modena;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;171749,649;1;0;100
+IT;IT030C1;Modena;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;171749,649;1;0;100
+IT;IT030C1;Modena;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;171749,649;1;0;100
+IT;IT032C1;Salerno;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;6734,315;1;0;100
+IT;IT033C1;Piacenza;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;93988,281;1;0;100
+IT;IT033C1;Piacenza;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;93988,281;1;0;0;100;0
+IT;IT033C1;Piacenza;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;93988,281;1;0;0;100;0
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;4819,248;1;0;100
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;4819,248;2;0;100
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;4819,248;1;0;100
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;4819,248;2;0;100
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;4819,248;2;0;100
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;4819,248;2;0;100
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;4819,248;2;0;100
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4819,248;2;0;100
+IT;IT034C1;Bolzano;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4819,248;2;0;100
+IT;IT035C1;Udine;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;95598,324;1;0;100
+IT;IT035C1;Udine;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;95598,324;1;0;100
+IT;IT035C1;Udine;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;95598,324;1;0;100
+IT;IT036C1;La Spezia;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;90808,137;1;0;100
+IT;IT036C1;La Spezia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;90808,137;1;0;100
+IT;IT036C1;La Spezia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;90808,137;1;0;100
+IT;IT037C1;Lecce;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4614,624;1;0;100
+IT;IT037C1;Lecce;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4614,624;1;0;100
+IT;IT037C1;Lecce;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4614,624;1;0;100
+IT;IT039C1;Pesaro;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;87521,481;1;0;0;100;0
+IT;IT039C1;Pesaro;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;87521,481;1;0;100
+IT;IT039C1;Pesaro;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;87521,481;1;0;100
+IT;IT039C1;Pesaro;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;87521,481;1;0;100
+IT;IT039C1;Pesaro;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;87521,481;1;0;100
+IT;IT040C1;Como;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4269,419;1;0;100
+IT;IT041C1;Pisa;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;82585,791;1;0;100
+IT;IT041C1;Pisa;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;82585,791;1;0;100
+IT;IT042C1;Treviso;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;79678,584;1;0;0;100;0
+IT;IT042C1;Treviso;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;79678,584;1;0;0;100;0
+IT;IT043C1;Varese;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;4240,117;1;0;0;100;0
+IT;IT043C1;Varese;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;4240,117;1;0;0;100;0
+IT;IT043C1;Varese;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4240,117;1;0;100
+IT;IT048C1;Cosenza;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;65005,605;1;0;100
+IT;IT048C1;Cosenza;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;65005,605;1;0;100
+IT;IT052C1;Savona;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;2978,906;1;0;100
+IT;IT052C1;Savona;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;2978,906;1;0;100
+IT;IT052C1;Savona;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;60794;2;0;100
+IT;IT057C1;Avellino;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;2789,031;1;0;100
+IT;IT058C1;Pordenone;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;2538,004;1;0;100
+IT;IT058C1;Pordenone;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;2538,004;1;0;100
+IT;IT060C1;Lecco;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;45463,506;1;0;100
+IT;IT060C1;Lecco;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;45463,506;1;0;100
+IT;IT060C1;Lecco;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;45463,506;1;0;100
+IT;IT502C1;Prato;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;173207,532;1;0;100
+IT;IT502C1;Prato;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;173207,532;1;0;100
+IT;IT502C1;Prato;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;173207,532;1;0;100
+IT;IT502C1;Prato;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;173207,532;1;0;100
+IT;IT502C1;Prato;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;173207,532;1;0;100
+IT;IT503C1;Parma;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;167664,153;1;0;100
+IT;IT503C1;Parma;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;167664,153;1;0;100
+IT;IT503C1;Parma;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;167664,153;1;0;100
+IT;IT503C1;Parma;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;167664,153;1;0;100
+IT;IT503C1;Parma;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;167664,153;1;0;100
+IT;IT504C1;Livorno;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;7860,188;1;0;100
+IT;IT504C1;Livorno;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;7860,188;1;0;100
+IT;IT504C1;Livorno;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;7860,188;1;0;100
+IT;IT504C1;Livorno;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;7860,188;1;0;100
+IT;IT504C1;Livorno;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;160412;2;0;100
+IT;IT504C1;Livorno;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;160412;2;0;100
+IT;IT505C1;Reggio nell'Emilia;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;149031,21;1;0;100
+IT;IT505C1;Reggio nell'Emilia;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;149031,21;1;0;100
+IT;IT505C1;Reggio nell'Emilia;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;149031,21;1;0;100
+IT;IT505C1;Reggio nell'Emilia;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;149031,21;1;0;100
+IT;IT505C1;Reggio nell'Emilia;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;149031,21;1;0;100
+IT;IT506C1;Ravenna;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;142430,319;1;0;100
+IT;IT507C1;Ferrara;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;126919,509;1;0;100
+IT;IT507C1;Ferrara;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;126919,509;1;0;100
+IT;IT507C1;Ferrara;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;126919,509;1;0;100
+IT;IT507C1;Ferrara;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;126919,509;1;0;100
+IT;IT508C1;Rimini;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;129386,403;1;0;100
+IT;IT508C1;Rimini;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;129386,403;1;0;100
+IT;IT508C1;Rimini;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;129386,403;1;0;100
+IT;IT508C1;Rimini;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;129386,403;1;0;100
+IT;IT508C1;Rimini;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;129386,403;1;0;100
+IT;IT510C1;Monza;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;110728,734;1;0;0;100;0
+IT;IT510C1;Monza;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;110728,734;1;0;0;100;0
+IT;IT510C1;Monza;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;110728,734;1;0;0;100;0
+IT;IT510C1;Monza;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;110728,734;1;0;0;100;0
+IT;IT511C1;Bergamo;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;112386,327;1;0;0;100;0
+IT;IT511C1;Bergamo;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;112386,327;1;0;0;100;0
+IT;IT511C1;Bergamo;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;112386,327;1;0;0;100;0
+IT;IT511C1;Bergamo;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;112386,327;1;0;0;100;0
+IT;IT512C1;Forlì;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;106937,097;1;0;100
+IT;IT512C1;Forlì;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;106937,097;1;0;100
+IT;IT512C1;Forlì;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;106937,097;1;0;100
+IT;IT512C1;Forlì;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;106937,097;1;0;100
+IT;IT513C1;Latina;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;105963,273;1;0;100
+IT;IT513C1;Latina;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;105963,273;1;0;100
+IT;IT514C1;Vicenza;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;110284,617;1;0;0;100;0
+IT;IT514C1;Vicenza;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;110284,617;1;0;0;100;0
+IT;IT514C1;Vicenza;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;110284,617;1;0;0;100;0
+IT;IT515C1;Terni;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;5471,291;1;0;100
+IT;IT515C1;Terni;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;5471,291;1;0;100
+IT;IT515C1;Terni;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;5471,291;1;0;100
+IT;IT515C1;Terni;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;5471,291;2;0;100
+IT;IT515C1;Terni;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;5471,291;2;0;100
+IT;IT515C1;Terni;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;5471,291;2;0;100
+IT;IT516C1;Novara;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;97558,335;1;0;0;100;0
+IT;IT516C1;Novara;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;97558,335;1;0;100
+LT;LT001C1;Vilnius;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;12304,701;1;0;100
+LT;LT001C1;Vilnius;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;12304,701;1;0;100
+LT;LT001C1;Vilnius;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;12304,701;1;0;100
+LT;LT001C1;Vilnius;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;12304,701;1;0;100
+LT;LT001C1;Vilnius;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;12304,701;1;0;100
+LT;LT001C1;Vilnius;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;12304,701;1;0;100
+LT;LT002C1;Kaunas;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;8248,904;1;0;100
+LT;LT002C1;Kaunas;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;8248,904;1;0;100
+LT;LT002C1;Kaunas;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;8248,904;1;0;100
+LT;LT002C1;Kaunas;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;8248,904;1;0;100
+LT;LT002C1;Kaunas;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;8248,904;1;0;100
+LT;LT501C1;Klaipeda;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;4260,911;1;0;100
+LT;LT501C1;Klaipeda;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;4260,911;1;0;100
+LT;LT501C1;Klaipeda;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;4260,911;1;0;100
+LT;LT501C1;Klaipeda;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4260,911;1;0;100
+LT;LT501C1;Klaipeda;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4260,911;1;0;100
+LT;LT501C1;Klaipeda;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4260,911;1;0;100
+LU;LU001C1;Luxembourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;76973,211;1;0;100
+LU;LU001C1;Luxembourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;76973,211;1;0;100
+LU;LU001C1;Luxembourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;76973,211;1;0;100
+LU;LU001C1;Luxembourg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;76973,211;1;0;100
+LV;LV001C1;Riga;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;698514,934;1;0;100
+LV;LV001C1;Riga;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;27592,066;1;698514,934;1;3,8;96,2
+LV;LV001C1;Riga;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;27592,066;1;0;0;100;0
+LV;LV001C1;Riga;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;27592,066;1;0;0;100;0
+LV;LV001C1;Riga;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;698514,934;1;0;100
+LV;LV002C1;Liepaja;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;3259,754;1;0;0;100;0
+LV;LV002C1;Liepaja;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;3259,754;1;0;100
+LV;LV002C1;Liepaja;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;3259,754;1;0;100
+MT;MT001C1;Valletta;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;9793,15;1;0;100
+MT;MT001C1;Valletta;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;9793,15;1;0;100
+MT;MT001C1;Valletta;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;9793,15;1;0;100
+MT;MT001C1;Valletta;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;9793,15;1;0;100
+MT;MT001C1;Valletta;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;9793,15;1;0;100
+MT;MT001C1;Valletta;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;9793,15;1;0;100
+NL;NL001C1;'s-Gravenhage;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;440168,976;1;0;100
+NL;NL001C1;'s-Gravenhage;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;440168,976;1;0;100
+NL;NL001C1;'s-Gravenhage;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;440168,976;1;0;100
+NL;NL001C1;'s-Gravenhage;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;440168,976;1;0;100
+NL;NL001C1;'s-Gravenhage;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;440168,976;1;0;100
+NL;NL002C1;Amsterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;698634,144;1;0;100
+NL;NL002C1;Amsterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;698634,144;2;0;100
+NL;NL002C1;Amsterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;698634,144;2;0;100
+NL;NL002C1;Amsterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;746404;6;0;100
+NL;NL003C1;Rotterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;608993;2;0;100
+NL;NL003C1;Rotterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;570017,448;1;0;100
+NL;NL003C1;Rotterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;608993;2;0;100
+NL;NL003C1;Rotterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;608993;2;0;100
+NL;NL003C1;Rotterdam;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;608993;4;0;100
+NL;NL004C1;Utrecht;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;285329;2;0;100
+NL;NL004C1;Utrecht;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;285329;2;0;100
+NL;NL004C1;Utrecht;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;285329;2;0;100
+NL;NL007C1;Groningen;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;168348,024;1;0;100
+NL;NL007C1;Groningen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;168348,024;1;0;100
+NL;NL007C1;Groningen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;179859;2;0;100
+NL;NL007C1;Groningen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;179859;2;0;100
+NL;NL007C1;Groningen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;179859;2;0;100
+NL;NL008C1;Enschede;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;142768,08;1;0;100
+NL;NL008C1;Enschede;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;142768,08;1;0;100
+NL;NL008C1;Enschede;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;142768,08;1;0;100
+NL;NL010C1;Heerlen;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;86436,792;1;0;100
+NL;NL010C1;Heerlen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;92347;2;0;100
+NL;NL010C1;Heerlen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;5910,208;1;0;100
+NL;NL010C1;Heerlen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;5910,208;1;0;100
+NL;NL010C1;Heerlen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;92347;2;0;100
+NL;NL012C1;Breda;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;160187,976;1;0;100
+NL;NL012C1;Breda;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;171141;2;0;100
+NL;NL012C1;Breda;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;171141;2;0;100
+NL;NL012C1;Breda;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;171141;2;0;100
+NL;NL012C1;Breda;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;171141;2;0;100
+NL;NL013C1;Nijmegen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;146560,752;1;0;100
+NL;NL013C1;Nijmegen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;146560,752;1;0;100
+NL;NL013C1;Nijmegen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;156582;2;0;100
+NL;NL013C1;Nijmegen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;156582;2;0;100
+NL;NL024C1;Vlaardingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;4479,232;1;0;100
+NL;NL024C1;Vlaardingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;4479,232;1;0;100
+NL;NL024C1;Vlaardingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;4479,232;1;0;100
+NL;NL024C1;Vlaardingen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;4479,232;1;0;100
+NL;NL502C1;Zaanstad;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;125953,776;1;0;100
+NL;NL502C1;Zaanstad;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;125953,776;1;0;100
+NL;NL502C1;Zaanstad;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;125953,776;1;0;100
+NL;NL502C1;Zaanstad;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;125953,776;1;0;100
+NL;NL502C1;Zaanstad;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;125953,776;1;0;100
+NL;NL518C1;Schiedam;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;68715,504;1;0;100
+NL;NL518C1;Schiedam;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;68715,504;1;0;100
+NL;NL518C1;Schiedam;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;68715,504;1;0;100
+NL;NL518C1;Schiedam;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;68715,504;1;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;10013,076;2;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;10013,076;2;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;10013,076;2;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;10013,076;2;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;10013,076;2;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;10013,076;2;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;10013,076;3;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;10013,076;5;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;10013,076;5;0;100
+NO;NO001C1;Oslo;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;10013,076;5;0;100
+NO;NO002C1;Bergen;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;4556,295;1;0;100
+NO;NO002C1;Bergen;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;4556,295;1;0;100
+NO;NO002C1;Bergen;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;4556,295;1;0;100
+NO;NO002C1;Bergen;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;4556,295;1;0;100
+NO;NO002C1;Bergen;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;239805;2;0;100
+NO;NO002C1;Bergen;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;239805;2;0;100
+NO;NO002C1;Bergen;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;239805;2;0;100
+NO;NO002C1;Bergen;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;239805;2;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;2982,506;1;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;153991,494;1;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;153991,494;1;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;153991,494;1;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;2982,506;2;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;2982,506;2;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;2982,506;3;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;156974;4;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;156974;4;0;100
+NO;NO003C1;Trondheim;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;156974;4;0;100
+NO;NO004C1;Stavanger;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;113330,025;1;0;100
+NO;NO004C1;Stavanger;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;115525;2;0;100
+NO;NO004C1;Stavanger;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;115525;2;0;100
+NO;NO004C1;Stavanger;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;115525;2;0;100
+NO;NO004C1;Stavanger;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;115525;2;0;100
+NO;NO006C1;Tromsø;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;1173,212;1;0;100
+NO;NO006C1;Tromsø;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1173,212;1;0;100
+PL;PL001C1;Warszawa;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;58000,464;1;0;0;100;0
+PL;PL001C1;Warszawa;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;1647895,536;1;0;100
+PL;PL001C1;Warszawa;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;1705896;3;0;0;100;0
+PL;PL001C1;Warszawa;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;881948,232;2;823947,768;1;51,7;48,3
+PL;PL001C1;Warszawa;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;1647895,536;2;0;0;100;0
+PL;PL002C1;Lódz;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;734129,088;1;0;100
+PL;PL002C1;Lódz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;734129,088;1;0;100
+PL;PL002C1;Lódz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;734129,088;1;0;100
+PL;PL002C1;Lódz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;734129,088;1;0;100
+PL;PL003C1;Kraków;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;731580,78;2;0;0;100;0
+PL;PL003C1;Kraków;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;731580,78;1;0;0;100;0
+PL;PL003C1;Kraków;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;25749,22;1;0;0;100;0
+PL;PL003C1;Kraków;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;757330;3;0;0;100;0
+PL;PL003C1;Kraków;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;757330;3;0;0;100;0
+PL;PL004C1;Wroclaw;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;613550,07;1;0;100
+PL;PL004C1;Wroclaw;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;613550,07;1;0;0;100;0
+PL;PL004C1;Wroclaw;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;613550,07;2;0;0;100;0
+PL;PL004C1;Wroclaw;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;635145;2;0;0;100;0
+PL;PL004C1;Wroclaw;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;635145;2;0;0;100;0
+PL;PL005C1;Poznan;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;548321,886;1;0;100
+PL;PL005C1;Poznan;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;548321,886;1;0;0;100;0
+PL;PL005C1;Poznan;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;548321,886;1;0;0;100;0
+PL;PL005C1;Poznan;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;548321,886;1;0;100
+PL;PL006C1;Gdansk;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;441281,358;1;0;100
+PL;PL006C1;Gdansk;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;441281,358;2;0;100
+PL;PL006C1;Gdansk;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;441281,358;1;0;100
+PL;PL007C1;Szczecin;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;13653,992;1;0;100
+PL;PL007C1;Szczecin;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;13653,992;1;0;100
+PL;PL007C1;Szczecin;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;13653,992;1;0;100
+PL;PL007C1;Szczecin;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;13653,992;1;0;100
+PL;PL007C1;Szczecin;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;401588;2;0;100
+PL;PL007C1;Szczecin;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;387934,008;1;0;100
+PL;PL007C1;Szczecin;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;401588;2;0;100
+PL;PL008C1;Bydgoszcz;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;339160,668;1;0;0;100;0
+PL;PL008C1;Bydgoszcz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;339160,668;1;0;100
+PL;PL008C1;Bydgoszcz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;339160,668;1;0;100
+PL;PL009C1;Lublin;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;340755,534;1;0;100
+PL;PL009C1;Lublin;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;340755,534;1;0;100
+PL;PL009C1;Lublin;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;340755,534;1;0;100
+PL;PL009C1;Lublin;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;340755,534;1;0;100
+PL;PL010C1;Katowice;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;296989,938;1;0;0;100;0
+PL;PL010C1;Katowice;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;307443;2;0;0;100;0
+PL;PL010C1;Katowice;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;307443;2;0;0;100;0
+PL;PL011C1;Bialystok;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;283926,72;1;0;100
+PL;PL011C1;Bialystok;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;283926,72;1;0;0;100;0
+PL;PL011C1;Bialystok;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;283926,72;2;0;100
+PL;PL012C1;Kielce;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;199335,066;1;0;0;100;0
+PL;PL012C1;Kielce;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;199335,066;1;0;0;100;0
+PL;PL012C1;Kielce;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;199335,066;1;0;0;100;0
+PL;PL013C1;Torun;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;199727,262;2;0;0;100;0
+PL;PL013C1;Torun;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;199727,262;1;0;100
+PL;PL013C1;Torun;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;199727,262;1;0;100
+PL;PL014C1;Olsztyn;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;166915,14;1;0;100
+PL;PL014C1;Olsztyn;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;166915,14;1;0;100
+PL;PL014C1;Olsztyn;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;166915,14;1;0;100
+PL;PL015C1;Rzeszów;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;85160,145;1;85160,145;1;50;50
+PL;PL015C1;Rzeszów;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;170320,29;2;0;0;100;0
+PL;PL015C1;Rzeszów;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;85160,145;1;85160,145;1;50;50
+PL;PL016C1;Opole;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;123478,95;1;0;0;100;0
+PL;PL016C1;Opole;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;123478,95;1;0;100
+PL;PL016C1;Opole;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;123478,95;1;0;0;100;0
+PL;PL017C1;Gorzów Wielkopolski;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;120160,74;1;0;100
+PL;PL017C1;Gorzów Wielkopolski;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;120160,74;1;0;100
+PL;PL017C1;Gorzów Wielkopolski;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;120160,74;1;0;100
+PL;PL018C1;Zielona Góra;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;114110,682;1;0;100
+PL;PL018C1;Zielona Góra;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;114110,682;1;0;100
+PL;PL020C1;Nowy Sacz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;82254,9;1;0;0;100;0
+PL;PL020C1;Nowy Sacz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;82254,9;1;0;0;100;0
+PL;PL023C1;Zory;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;60187,596;1;0;0;100;0
+PL;PL023C1;Zory;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;60187,596;1;0;0;100;0
+PL;PL023C1;Zory;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;60187,596;1;0;0;100;0
+PL;PL023C1;Zory;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;60187,596;1;0;0;100;0
+PL;PL024C1;Czestochowa;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;235517,562;1;0;0;100;0
+PL;PL024C1;Czestochowa;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;235517,562;1;0;0;100;0
+PL;PL024C1;Czestochowa;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;235517,562;1;0;0;100;0
+PL;PL025C1;Radom;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;219042,432;1;0;100
+PL;PL025C1;Radom;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;219042,432;1;0;0;100;0
+PL;PL025C1;Radom;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;219042,432;1;0;100
+PL;PL026C1;Plock;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;122184,51;1;0;100
+PL;PL026C1;Plock;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;122184,51;1;0;0;100;0
+PL;PL026C1;Plock;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;122184,51;1;0;100
+PL;PL027C1;Kalisz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;104662,236;1;0;0;100;0
+PL;PL027C1;Kalisz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;104662,236;1;0;0;100;0
+PL;PL028C1;Koszalin;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;105155,862;1;0;100
+PL;PL028C1;Koszalin;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;105155,862;1;0;100
+PL;PL028C1;Koszalin;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;105155,862;1;0;100
+PL;PL029C1;Slupsk;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;94400,418;1;0;100
+PL;PL029C1;Slupsk;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;94400,418;1;0;100
+PL;PL029C1;Slupsk;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;94400,418;1;0;100
+PL;PL029C1;Slupsk;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;94400,418;1;0;100
+PL;PL031C1;Siedlce;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;74836,02;1;0;0;100;0
+PL;PL032C1;Piotrków Trybunalski;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;75641,664;1;0;0;100;0
+PL;PL032C1;Piotrków Trybunalski;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;75641,664;1;0;0;100;0
+PL;PL040C1;Przemysl;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;64713,306;1;0;0;100;0
+PL;PL040C1;Przemysl;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;64713,306;1;0;0;100;0
+PL;PL040C1;Przemysl;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;64713,306;1;0;0;100;0
+PL;PL041C1;Zamosc;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;62116,698;1;0;0;100;0
+PL;PL041C1;Zamosc;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;62116,698;1;0;0;100;0
+PL;PL041C1;Zamosc;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;62116,698;1;0;100
+PL;PL042C1;Chelm;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;63910,56;1;0;100
+PL;PL042C1;Chelm;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;63910,56;1;0;100
+PL;PL042C1;Chelm;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;63910,56;1;0;100
+PL;PL047C1;Lomza;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;61341;1;0;0;100;0
+PL;PL047C1;Lomza;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;61341;1;0;0;100;0
+PL;PL050C1;Zgierz;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;56416,332;1;0;0;100;0
+PL;PL050C1;Zgierz;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;56416,332;1;0;0;100;0
+PL;PL050C1;Zgierz;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;56416,332;1;0;0;100;0
+PL;PL503C1;Gliwice;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;198926,448;1;0;0;100;0
+PL;PL503C1;Gliwice;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;198926,448;1;0;0;100;0
+PL;PL503C1;Gliwice;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;198926,448;1;0;0;100;0
+PL;PL504C1;Zabrze;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;173766,012;1;0;0;100;0
+PL;PL504C1;Zabrze;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;173766,012;1;0;0;100;0
+PL;PL506C1;Bielsko-Biala;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;169992,816;1;0;0;100;0
+PL;PL506C1;Bielsko-Biala;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;169992,816;1;0;0;100;0
+PL;PL506C1;Bielsko-Biala;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;169992,816;1;0;0;100;0
+PL;PL511C1;Walbrzych;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;118442,226;1;0;0;100;0
+PL;PL511C1;Walbrzych;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;118442,226;1;0;100
+PL;PL511C1;Walbrzych;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;118442,226;1;0;100
+PL;PL512C1;Elblag;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;122599,89;1;0;100
+PL;PL512C1;Elblag;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;122599,89;1;0;100
+PL;PL512C1;Elblag;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;122599,89;1;0;100
+PL;PL513C1;Wloclawek;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;113992,83;1;0;100
+PL;PL513C1;Wloclawek;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;113992,83;1;0;100
+PL;PL514C1;Tarnów;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;112285,908;1;0;0;100;0
+PL;PL514C1;Tarnów;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;112285,908;1;0;0;100;0
+PL;PL514C1;Tarnów;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;112285,908;1;0;0;100;0
+PL;PL516C1;Legnica;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;101850,21;1;0;0;100;0
+PL;PL516C1;Legnica;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;101850,21;1;0;0;100;0
+PL;PL516C1;Legnica;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;101850,21;1;0;0;100;0
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2002;0;0;20324,3;1;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;20324,3;1;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;534850;2;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;534850;2;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;534850;2;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;534850;2;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;534850;2;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;534850;2;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;20324,3;1;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;534850;2;0;100
+PT;PT001C1;Lisboa;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;534850;2;0;100
+PT;PT002C1;Porto;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;221784,29;1;0;100
+PT;PT002C1;Porto;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;221784,29;1;0;100
+PT;PT002C1;Porto;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;221784,29;1;0;100
+PT;PT004C1;Funchal;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;100526;2;0;100
+PT;PT004C1;Funchal;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;100526;2;0;100
+PT;PT004C1;Funchal;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;100526;2;0;100
+PT;PT004C1;Funchal;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;100526;2;0;100
+PT;PT004C1;Funchal;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;100526;2;0;100
+PT;PT009C1;Faro;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;2240,366;1;0;100
+PT;PT009C1;Faro;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;58957;2;0;100
+PT;PT009C1;Faro;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;56716,634;1;0;100
+PT;PT012C1;Almada;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;157973,868;1;0;100
+PT;PT012C1;Almada;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;157973,868;1;0;100
+PT;PT012C1;Almada;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;157973,868;1;0;100
+PT;PT012C1;Almada;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;157973,868;1;0;100
+RO;RO001C1;Bucuresti;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;45019,632;1;0;0;100;0
+RO;RO001C1;Bucuresti;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;1875818;2;0;100
+RO;RO002C1;Cluj-Napoca;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;302307,216;1;0;100
+RO;RO002C1;Cluj-Napoca;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;302307,216;1;0;100
+RO;RO003C1;Timisoara;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;288192,304;1;0;100
+RO;RO003C1;Timisoara;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;288192,304;1;0;100
+RO;RO003C1;Timisoara;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;288192,304;1;0;100
+RO;RO003C1;Timisoara;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;288192,304;1;0;100
+RO;RO004C1;Craiova;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;293041,072;1;0;100
+RO;RO005C1;Braila;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;202512,192;1;0;100
+RO;RO007C1;Bacau;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;163632,256;1;0;100
+RO;RO007C1;Bacau;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;163632,256;1;0;100
+RO;RO007C1;Bacau;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;163632,256;1;0;100
+RO;RO007C1;Bacau;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;163632,256;1;0;100
+RO;RO008C1;Arad;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;160675,952;1;0;100
+RO;RO008C1;Arad;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;160675,952;1;0;100
+RO;RO008C1;Arad;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;160675,952;1;0;100
+RO;RO009C1;Sibiu;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;148800,96;1;0;100
+RO;RO009C1;Sibiu;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;148800,96;1;0;100
+RO;RO010C1;Târgu Mures;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;132299,728;1;0;100
+RO;RO010C1;Târgu Mures;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;132299,728;1;0;100
+RO;RO011C1;Piatra Neamt;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;105190,352;1;0;100
+RO;RO011C1;Piatra Neamt;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;105190,352;1;0;100
+RO;RO501C1;Constanta;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;300131,712;1;0;100
+RO;RO501C1;Constanta;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;300131,712;1;0;100
+RO;RO502C1;Iasi;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;293709,632;1;0;100
+RO;RO502C1;Iasi;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;293709,632;1;0;100
+RO;RO502C1;Iasi;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;293709,632;1;0;100
+RO;RO502C1;Iasi;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;293709,632;1;0;100
+RO;RO504C1;Brasov;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;267802,688;1;0;100
+RO;RO504C1;Brasov;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;267802,688;1;0;100
+RO;RO504C1;Brasov;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;267802,688;1;0;100
+RO;RO505C1;Ploiesti;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;221674;1;0;100
+RO;RO505C1;Ploiesti;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;221674;1;0;100
+RO;RO505C1;Ploiesti;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;221674;1;0;100
+RO;RO506C1;Pitesti;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;159233,424;1;0;100
+RO;RO506C1;Pitesti;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;159233,424;1;0;100
+RO;RO507C1;Baia Mare;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;135541,024;1;0;100
+RO;RO507C1;Baia Mare;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;135541,024;1;0;100
+RO;RO507C1;Baia Mare;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;135541,024;1;0;100
+RO;RO508C1;Buzau;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;127945,792;1;0;100
+RO;RO508C1;Buzau;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;127945,792;1;0;0;100;0
+RO;RO509C1;Satu Mare;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;110916,544;1;0;100
+RO;RO509C1;Satu Mare;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;110916,544;1;0;100
+RO;RO509C1;Satu Mare;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;110916,544;1;0;100
+RO;RO509C1;Satu Mare;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;110916,544;1;0;0;100;0
+RO;RO510C1;Botosani;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;110483,2;1;0;100
+RO;RO510C1;Botosani;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;110483,2;1;0;100
+RO;RO510C1;Botosani;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;110483,2;1;0;100
+RO;RO510C1;Botosani;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;110483,2;1;0;100
+RO;RO511C1;Râmnicu Vâlcea;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;105768,144;1;0;100
+RO;RO511C1;Râmnicu Vâlcea;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;105768,144;1;0;0;100;0
+RO;RO512C1;Suceava;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;104906,336;1;0;100
+RO;RO512C1;Suceava;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;104906,336;1;0;100
+RO;RO512C1;Suceava;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;104906,336;1;0;100
+RO;RO512C1;Suceava;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;104906,336;1;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;770906;4;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;16959,932;3;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;770906;4;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;770906;3;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;770906;3;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;770906;2;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;770906;6;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;770906;4;0;100
+SE;SE001C1;Stockholm;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;770906;5;0;100
+SE;SE002C1;Göteborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;10762,972;1;0;100
+SE;SE002C1;Göteborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;10762,972;1;0;100
+SE;SE002C1;Göteborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;10762,972;1;0;100
+SE;SE002C1;Göteborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;10762,972;1;0;100
+SE;SE002C1;Göteborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;10762,972;1;0;100
+SE;SE002C1;Göteborg;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;10762,972;1;0;100
+SE;SE003C1;Malmö;PM2.5;Particulate matter < 2.5 µm (aerosol);2005;0;0;268656,6;1;0;100
+SE;SE003C1;Malmö;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;0;0;268656,6;1;0;100
+SE;SE003C1;Malmö;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;0;0;268656,6;1;0;100
+SE;SE003C1;Malmö;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;268656,6;1;0;100
+SE;SE003C1;Malmö;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;274700;2;0;100
+SE;SE003C1;Malmö;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;274700;2;0;100
+SE;SE003C1;Malmö;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;274700;2;0;100
+SE;SE003C1;Malmö;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;268656,6;1;0;100
+SE;SE004C1;Jönköping;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;2686,464;1;0;100
+SE;SE005C1;Umeå;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;108640,152;1;0;100
+SE;SE005C1;Umeå;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;108640,152;1;0;100
+SE;SE005C1;Umeå;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;108640,152;1;0;100
+SE;SE505C1;Borås;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;2200,638;1;0;100
+SI;SI001C1;Ljubljana;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;240377,613;1;0;100
+SI;SI001C1;Ljubljana;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;240377,613;1;0;100
+SI;SI001C1;Ljubljana;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;240377,613;1;0;100
+SI;SI001C1;Ljubljana;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;240377,613;1;0;100
+SI;SI001C1;Ljubljana;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;240377,613;1;0;100
+SI;SI002C1;Maribor;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;5280,485;1;0;100
+SI;SI002C1;Maribor;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;0;0;107765;2;0;100
+SI;SI002C1;Maribor;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;107765;2;0;100
+SI;SI002C1;Maribor;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;5280,485;1;102484,515;1;4,9;95,1
+SI;SI002C1;Maribor;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;107765;2;0;100
+SK;SK001C1;Bratislava;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;24278,409;1;0;100
+SK;SK001C1;Bratislava;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;24278,409;1;0;100
+SK;SK002C1;Košice;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;222411,265;1;0;100
+SK;SK002C1;Košice;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;222411,265;1;0;100
+SK;SK002C1;Košice;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;222411,265;2;0;0;100;0
+SK;SK003C1;Banská Bystrica;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;4565,586;1;75532,414;1;5,7;94,3
+SK;SK003C1;Banská Bystrica;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;75532,414;1;0;100
+SK;SK003C1;Banská Bystrica;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;75532,414;1;0;100
+SK;SK004C1;Nitra;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;78696,179;1;0;100
+SK;SK004C1;Nitra;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;78696,179;1;0;100
+SK;SK005C1;Prešov;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;0;0;5206,095;1;0;100
+SK;SK005C1;Prešov;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;5206,095;1;0;0;100;0
+SK;SK005C1;Prešov;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;5206,095;1;0;100
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2003;0;0;4824,138;1;0;100
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2004;0;0;4824,138;1;0;100
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2006;79809,862;1;0;0;100;0
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2007;79809,862;1;0;0;100;0
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2008;0;0;79809,862;1;0;100
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2009;79809,862;1;0;0;100;0
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2010;79809,862;1;0;0;100;0
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;79809,862;1;0;0;100;0
+SK;SK006C1;Žilina;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;79809,862;1;0;0;100;0
+SK;SK007C1;Trnava;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;0;0;3934,767;1;0;100
+SK;SK008C1;Trencín;PM2.5;Particulate matter < 2.5 µm (aerosol);2011;53711,394;1;0;0;100;0
+SK;SK008C1;Trencín;PM2.5;Particulate matter < 2.5 µm (aerosol);2012;0;0;53711,394;1;0;100

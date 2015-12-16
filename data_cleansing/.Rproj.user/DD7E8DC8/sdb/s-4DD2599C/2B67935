@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1450194079829.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2B67935",
+    "lastKnownWriteTime" : 7953766464592047872,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "O3",
+        "contentUrl" : "content?title=O3&file=31c1a88d6112477b81a10c5192dbb394.htm",
+        "displayedObservations" : 753,
+        "displayedVariables" : 22,
+        "totalObservations" : 753,
+        "variables" : 21
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

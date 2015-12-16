@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1450194538540.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F8842BC2",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "pollutants",
+        "contentUrl" : "content?title=pollutants&file=07f22637d8ad4c6f9ad5de42e6087d7f.htm",
+        "displayedObservations" : "71",
+        "displayedVariables" : 17,
+        "totalObservations" : "71",
+        "variables" : "26"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

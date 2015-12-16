@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1450194163861.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "41435DEB",
+    "lastKnownWriteTime" : 7953766464592047872,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "NO2",
+        "contentUrl" : "content?title=NO2&file=9a1ca600207e4dcfa36919e83bb73e74.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 22,
+        "totalObservations" : 1214,
+        "variables" : 21
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

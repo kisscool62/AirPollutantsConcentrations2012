@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1450196767396.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A3F301B7",
+    "lastKnownWriteTime" : 4298829312,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "BaP",
+        "contentUrl" : "content?title=BaP&file=f8d32fcd9bd54631b25d2ab76c4e73aa.htm",
+        "displayedObservations" : 278,
+        "displayedVariables" : 22,
+        "totalObservations" : 278,
+        "variables" : 21
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

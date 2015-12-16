@@ -1,0 +1,478 @@
+PM10 measurements at country level;;;;;;;;;;
+PM10: percentage of population and exceedances. Results are shown at country level (including EU28 and EEA33 aggregates).;;;;;;;;;;
+;;;;;;;;;;
+"tot_pop_exc: sum of total population assigned to each stations for stations having above_DLV?=1;";;;;;;;;;;
+nb_of_station_exc: count of stations having above_DLV?=1.;;;;;;;;;;
+"tot_pop_no_exc: sum of total population assigned to each stations for stations having above_DLV?=0;";;;;;;;;;;
+nb_of_station_no_exc: count of stations having above_DLV?=0.;;;;;;;;;;
+percentage_pop_exc=(tot_pop_exc)/(tot_pop_exc+tot_pop_no_exc)*100;;;;;;;;;;
+percentage_pop_no_exc=(tot_pop_no_exc)/(tot_pop_exc+tot_pop_no_exc)*100;;;;;;;;;;
+Note: one station (station_european_code) can be counted several times if the same station shows several concentration statistics for the same year (distinct measurements recorded under different measurement_european_group_code);;;;;;;;;;
+;;;;;;;;;;
+country_iso_code;country_name;component_caption;component_name;statistics_year;tot_pop_exc;nb_of_station_exc;tot_pop_no_exc;nb_of_station_no_exc;percentage_pop_exc;percentage_pop_no_exc
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2000;0;0;183281,272;2;0;100
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2001;443153,08;10;12972,544;4;97,1559273767088;2,84407262329117
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2002;512154,879333333;14;1734668,17666667;5;22,7946245239765;77,2053754760235
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2003;2105772,43466667;23;141050,621333333;2;93,7222194263733;6,27778057362668
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2004;487115,16;15;1759707,896;16;21,6801745335125;78,3198254664875
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2005;1329283,16266667;30;917539,893333333;6;59,1627880583164;40,8372119416836
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2006;1315473,00266667;30;931350,053333333;4;58,5481352950237;41,4518647049763
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2007;561833,766109091;15;1684989,28989091;23;25,0056970266861;74,9943029733139
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2008;193024,277915151;10;2053798,77808485;27;8,59098705613209;91,4090129438679
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2009;120155,733333333;7;2126667,32266667;32;5,34780578348015;94,6521942165198
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2010;1108761,31066667;18;1138061,74533333;13;49,3479585633497;50,6520414366503
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2011;1096575,25493333;21;1237516,69706667;17;46,9808078466539;53,0191921533461
+AT;Austria;PM10;Particulate matter < 10 µm (aerosol);2012;15865,856;2;2318226,096;28;0,679744257136276;99,3202557428637
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);1996;249256,9;2;0;0;100;0
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);1997;1267885,226;5;0;0;100;0
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);1998;1267885,226;5;0;0;100;0
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);1999;862115,73;6;929298,412;1;48,1248701675148;51,8751298324852
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2000;862115,73;6;929298,412;3;48,1248701675148;51,8751298324852
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2001;1466581,67866667;7;309766,137333333;1;82,5616281595759;17,4383718404241
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2002;1481648,00466667;9;309766,137333333;1;82,7082900558383;17,2917099441617
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2003;1547979,23666667;10;309766,137333333;1;83,3256945936374;16,6743054063626
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2004;1127332,01;7;1158316,112;4;49,3222031488187;50,6777968511813
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2005;500340,068;5;1530444,148;7;24,6377760895498;75,3622239104502
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2006;1064354,01;9;966430,206;3;52,4109849591228;47,5890150408772
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2007;645888,481;4;1469377,493;9;30,5346225457697;69,4653774542303
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2008;37131,794;1;2251600,528;16;1,62237381991235;98,3776261800876
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2009;1045700,65206667;6;1258097,99593333;14;45,390279787449;54,609720212551
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2010;416059,3932;4;1887739,2548;15;18,0597116662602;81,9402883337398
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2011;902579,8372;10;1401218,8108;9;39,1778959495248;60,8221040504752
+BE;Belgium;PM10;Particulate matter < 10 µm (aerosol);2012;366542,6544;3;1937255,9936;18;15,9103598189107;84,0896401810893
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);1998;0;0;60330,976;1;0;100
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2000;1111565,716;2;0;0;100;0
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2001;0;0;188672,604;2;0;100
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2003;1442327,612;5;0;0;100;0
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2004;1483733,12;5;0;0;100;0
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2005;1715935,664;8;185854,38;2;90,2273975728101;9,77260242718991
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2006;2178145,226;14;92927,19;1;95,9082242668567;4,09177573314333
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2007;2248954,58;14;109169,144;1;95,3705082185077;4,62949178149229
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2008;2493519,272;17;0;0;100;0
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2009;2607714,54;24;5033,052;1;99,8073655482293;0,192634451770648
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2010;2913147,344;26;0;0;100;0
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2011;2913147,344;26;0;0;100;0
+BG;Bulgaria;PM10;Particulate matter < 10 µm (aerosol);2012;2773467,412;23;78202,76;3;97,2576505948038;2,74234940519622
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);1994;0;0;3357,55;1;0;100
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);1995;3357,55;1;0;0;100;0
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);1996;3357,55;1;0;0;100;0
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);1997;377510,3;4;162080,7;2;69,9623047826965;30,0376952173035
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);1998;67042,25;4;494482,95;4;11,9393127859622;88,0606872140378
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);1999;67042,25;4;549922,55;4;10,8664627220224;89,1335372779776
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2000;58573,3;3;650268;7;8,26324594799993;91,7367540520001
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2001;50104,35;2;667389,15;9;6,9832479318628;93,0167520681372
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2002;46999,55;2;582039,45;10;7,47164325264411;92,5283567473559
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2003;377510,3;5;339983,2;7;52,6151526111386;47,3848473888614
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2004;3104,8;1;722742,55;13;0,427748341300688;99,5722516586993
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2005;46999,55;2;678847,8;11;6,47512868924851;93,5248713107515
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2006;462567,75;9;263279,6;5;63,7279656666102;36,2720343333898
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2007;3104,8;1;722742,55;13;0,427748341300688;99,5722516586993
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;725847,35;15;0;100
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;725847,35;13;0;100
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2010;0;0;890239,15;15;0;100
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2011;173044;2;564947,2;11;23,4479760734274;76,5520239265726
+CH;Switzerland;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;826445,7;14;0;100
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);1994;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);1997;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);1998;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);1999;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2000;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2001;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2002;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2003;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2004;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2005;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2006;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2007;12519,95;2;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2008;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2009;12519,95;1;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2010;185846,5;2;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2011;185846,5;2;0;0;100;0
+CY;Cyprus;PM10;Particulate matter < 10 µm (aerosol);2012;185846,5;2;0;0;100;0
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);1996;2533885,65;27;0;0;100;0
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);1997;2294333,45;25;85037,975;1;96,4260319298405;3,57396807015954
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);1998;1504164,45366667;17;1029721,19633333;10;59,3619705635362;40,6380294364639
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);1999;790812,284333333;12;1743073,36566667;15;31,2094701011205;68,7905298988795
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2000;1138348,632;16;1395537,018;11;44,9250198800408;55,0749801199592
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2001;1630911,274;19;902974,376;8;64,364043973334;35,635956026666
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2002;2356283,625;22;92564,05;4;96,220097683291;3,77990231670902
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2003;2588270,315;25;100802,015;2;96,2514204666261;3,74857953337388
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2004;2368104,955;24;516229,88;7;82,1022901455198;17,8977098544802
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2005;2360661,41916667;36;558200,610833333;6;80,8760878350481;19,123912164952
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2006;2618003,91625;37;300858,11375;7;89,6926229928723;10,3073770071277
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2007;647037,369285714;17;2176344,71571429;26;22,9171026027005;77,0828973972995
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2008;566265,565;15;2257116,52;29;20,0562852618653;79,9437147381347
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2009;705841,9975;14;2117540,0875;31;24,9998751940087;75,0001248059913
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2010;1521797,90541667;28;1301584,17958333;16;53,8998215474143;46,1001784525857
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2011;1837299,63053571;32;986082,454464286;13;65,0744240496842;34,9255759503158
+CZ;Czech Republic;PM10;Particulate matter < 10 µm (aerosol);2012;811244,762857143;18;2197616,46714286;26;26,9618536996185;73,0381463003815
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);1997;0;0;265671,616;1;0;100
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);1998;12045,484;1;2233930,062;23;0,536314120670306;99,4636858793297
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);1999;1408433,478;16;3286346,006;5;29,9999921785464;70,0000078214536
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2000;563262,6507;22;9146034,3313;59;5,80127121195519;94,1987287880448
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2001;1153867,90796667;33;13773834,9220333;107;7,72970845619833;92,2702915438017
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2002;6301063,26366667;64;8087913,35433333;67;43,7909062676793;56,2090937323207
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2003;10578344,062;100;11044980,276;80;48,9209887279451;51,0790112720549
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2004;1182113,53466667;31;20651704,9833333;150;5,41414015002516;94,5858598499749
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2005;1161621,43766667;44;20744565,9143333;162;5,30270931678402;94,697290683216
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2006;3515188,53833334;79;18538542,5056667;138;15,9392010871997;84,0607989128004
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2007;300394,050666667;28;21572282,8173334;203;1,37337579885408;98,6266242011459
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2008;154269,526333333;12;21461098,5416667;198;0,71370298136037;99,2862970186396
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2009;324671,452666667;27;21119734,9233333;209;1,51401464313804;98,485985356862
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2010;1894879,69633333;48;20045471,5136667;195;8,63650576144689;91,3634942385531
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2011;1836826,537;55;20077584,225;147;8,38182033251421;91,6181796674858
+DE;Germany;PM10;Particulate matter < 10 µm (aerosol);2012;95674,277;9;21781537,217;217;0,437323911350583;99,5626760886494
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2001;0;0;12696,222;1;0;100
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2002;44590,524;2;471749,778;3;8,63587905636698;91,364120943633
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2003;57286,746;3;749628,788;3;7,09947244614577;92,9005275538542
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2004;23035,716;2;511078,032;6;4,31288580124697;95,687114198753
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2005;33813,12;3;1126246,88;8;2,91477337379101;97,085226626209
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2006;44590,524;2;910022,352;3;4,67105830238141;95,3289416976186
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2007;28424,418;2;672663,886;5;4,0543277983425;95,9456722016575
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;521417,526;4;0;100
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;521417,526;6;0;100
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2010;0;0;521417,526;4;0;100
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2011;16166,106;1;47701,632;3;25,3118499358784;74,6881500641216
+DK;Denmark;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;521417,526;5;0;100
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2001;0;0;393011;2;0;100
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2002;11004,308;1;382006,692;1;2,8;97,2
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2003;11004,308;1;382006,692;1;2,8;97,2
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2004;0;0;382006,692;1;0;100
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2005;0;0;382006,692;1;0;100
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2006;11004,308;1;382006,692;1;2,8;97,2
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2007;11004,308;1;382006,692;1;2,8;97,2
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;382006,692;1;0;100
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;548152,892;5;0;100
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2010;0;0;548152,892;5;0;100
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2011;0;0;393011;3;0;100
+EE;Estonia;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;548152,892;5;0;100
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);1992;7714209,138;3;0;0;100;0
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);1993;9775069,27;9;444765,756;2;95,6480143283284;4,35198567167164
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);1994;11898654,25;18;1401334,99;6;89,4636381675749;10,5363618324251
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);1995;11401566,45;19;1884162,966;5;85,8181443637494;14,1818556362506
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);1996;14399302,266;54;3242179,682;4;81,6218405485625;18,3781594514375
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);1997;13698236,1276667;69;12490131,6523333;35;52,3065669565248;47,6934330434752
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);1998;8604465,05346667;61;19983481,1395333;80;30,098227397579;69,901772602421
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);1999;12746679,7848333;94;26128028,0841667;82;32,789133304325;67,210866695675
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2000;14332128,8541;115;33250672,0469;148;30,1203976704087;69,8796023295913
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2001;20184604,1589;167;52826905,4791;336;27,6457838756899;72,3542161243101
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2002;23514408,6618167;225;57644060,3151833;359;28,9734502858606;71,0265497141394
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2003;39538140,71415;349;56392609,20485;374;41,2152941028131;58,7847058971869
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2004;25532308,0411667;273;75071840,6138333;519;25,3789812671882;74,6210187328118
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2005;35089679,9426;381;73531282,3344;549;32,3047036290435;67,6952963709565
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2006;43671276,534975;472;70967939,783025;496;38,0945351317078;61,9054648682922
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2007;30315777,8913412;345;78156761,2726588;632;27,9478825931296;72,0521174068704
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2008;49202052,8339235;334;89824943,8410765;767;35,3902867864879;64,6097132135121
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2009;58280954,4743167;384;86359515,7866833;772;40,2936704845817;59,7063295154183
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2010;65237565,0421;413;87985827,4759;764;42,5767658384383;57,4232341615617
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2011;70003091,4928357;500;82434103,9821643;650;45,9225789838913;54,0774210161087
+EEA33;EEA33;PM10;Particulate matter < 10 µm (aerosol);2012;58884934,1112214;339;96100730,2497785;867;37,993794041534;62,006205958466
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);1997;2340369,463;11;1575881,736;5;59,7604531496244;40,2395468503756
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);1998;797872,268;12;11565,395;1;98,5711815092548;1,42881849074522
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);1999;3212734,7751;22;1531852,1609;4;67,7136875862274;32,2863124137726
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2000;4902187,543;29;36148,438;3;99,2680036729158;0,731996327084251
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2001;4754585,453;33;390528,875;15;92,4097143405595;7,59028565944046
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2002;3525897,00375;30;2104819,01725;19;62,6189811491117;37,3810188508884
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2003;4671520,09725;35;2120891,20775;21;68,7755774420083;31,2244225579917
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2004;5182405,529;41;1199167,351;18;81,2089061184552;18,7910938815448
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2005;7617192,69501666;62;2509017,74798333;35;75,2225399412101;24,7774600587899
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2006;6783669,58976667;46;3927341,78423333;29;63,3336045766267;36,6663954233733
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2007;2833145,36607143;32;5418810,69392857;40;34,3330156567924;65,6669843432076
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2008;2546755,41465;27;6265943,40535;54;28,8987002355085;71,1012997644914
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2009;2704401,43375;21;8390944,10825;72;24,3741974822942;75,6258025177058
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2010;169662,547666667;8;11814665,5163333;91;1,41570346506384;98,5842965349362
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2011;478866,02165;8;12221197,44935;96;3,77057975138052;96,2294202486195
+ES;Spain;PM10;Particulate matter < 10 µm (aerosol);2012;668326,87225;3;10542146,84775;92;5,9616291777008;94,0383708222992
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);1992;7714209,138;3;0;0;100;0
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);1993;9775069,27;9;444765,756;2;95,6480143283284;4,35198567167164
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);1994;11898654,25;18;1397977,44;5;89,4862287488088;10,5137712511912
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);1995;11398208,9;18;1884162,966;5;85,8145594400722;14,1854405599278
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);1996;14395944,716;53;3242179,682;4;81,618342127309;18,381657872691
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);1997;13320725,8276667;65;12326708,3523333;32;51,9378497442611;48,0621502557389
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);1998;8537422,80346666;57;19488998,1895333;76;30,4620515248772;69,5379484751228
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);1999;12679637,5348333;90;25578105,5341667;78;33,14267000007;66,85732999993
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2000;14273555,5541;112;32600404,0469;141;30,4509277125278;69,5490722874722
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2001;20134499,8089;165;52149503,2531;326;27,8547105251352;72,1452894748648
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2002;23467409,1118167;223;57052007,7891833;348;29,1450311179852;70,8549688820148
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2003;39143078,53715;339;55625577,29985;364;41,3038237077829;58,6961762922171
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2004;25329087,9511667;268;73837291,2528333;500;25,5420114705015;74,4579885294985
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2005;35033022,5026;376;71633179,3994;530;32,8436017013025;67,1563982986975
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2006;43205371,092975;462;69835202,381025;485;38,2211181040341;61,7788818959659
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2007;30310008,6263412;342;76473918,4696588;610;28,3844296146668;71,6155703853332
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2008;26199163,0339235;292;88326789,1730765;743;22,8761800526834;77,1238199473166
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2009;26511994,54315;315;84278786,22485;744;23,9297840121437;76,0702159878563
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2010;28426797,3284333;314;85771665,9275666;732;24,8924517177684;75,1075482822315
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2011;34551019,024169;410;79937433,8228309;619;30,1786059335978;69,8213940664022
+EU28;EU28;PM10;Particulate matter < 10 µm (aerosol);2012;25462193,2925548;257;93089674,1404452;829;21,4776821688995;78,5223178311005
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);1993;0;0;20636,85;1;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);1994;0;0;20636,85;1;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);1995;20636,85;1;0;0;100;0
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);1996;20636,85;1;0;0;100;0
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);1997;0;0;20636,85;2;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);1998;10318,425;1;26072,351;3;28,3545066475087;71,6454933524913
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);1999;0;0;558828,926;5;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2000;0;0;558828,926;5;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2001;0;0;924707,374;14;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2002;0;0;917194,318;13;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2003;6878,95;1;917828,424;16;0,743905606618424;99,2560943933816
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2004;0;0;924707,374;17;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2005;13757,9;2;784069,37;13;1,72442087621297;98,275579123787
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2006;13757,9;2;910949,474;14;1,48781121323685;98,5121887867631
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2007;0;0;924707,374;15;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;924707,374;15;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;924707,374;16;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2010;0;0;924707,374;19;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2011;0;0;924707,374;19;0;100
+FI;Finland;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;924707,374;18;0;100
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2001;101518,809;2;12519067,381;99;0,804390600180196;99,1956093998198
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2002;116113,662;5;18120049,182;167;0,636722006670407;99,3632779933296
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2003;583324,889666667;14;18259380,4063333;172;3,09575976752392;96,9042402324761
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2004;371760,266;7;18925475,352;179;1,92649493097981;98,0735050690202
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2005;243882,432;11;19258682,532;176;1,25051464999699;98,749485350003
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2006;245613,462;12;18811907,57;163;1,28880068707564;98,7111993129244
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2007;4020938,37433333;46;14901457,0836667;122;21,2496265774499;78,7503734225501
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2008;1306161,51233333;27;19202316,6956667;165;6,36888558520067;93,6311144147993
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2009;2745872,3336;34;17475583,4424;149;13,579004222134;86,420995777866
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2010;866069,362066667;17;19599121,9799333;168;4,23191431535391;95,7680856846461
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2011;3883370,11233333;42;16684174,0416667;142;18,8810588335511;81,1189411664489
+FR;France;PM10;Particulate matter < 10 µm (aerosol);2012;1096351,52966667;25;19295602,2243333;156;5,3763927816461;94,6236072183539
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);1992;7274040,162;2;0;0;100;0
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);1993;8603554,47;4;424128,906;1;95,3019076064681;4,6980923935319
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);1994;10022501,316;9;1377340,59;4;87,9178974466736;12,0821025533264
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);1995;9513939,066;9;1884162,966;5;83,4695025477905;16,5304974522095
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);1996;9728532,332;15;3242179,682;4;75,0038418978038;24,9961581021962
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);1997;4391483,43466667;9;10379480,1753333;23;29,7305142075742;70,2694857924258
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);1998;678667,7968;5;15380258,5812;36;4,22610939751081;95,7738906024892
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);1999;119047,6564;2;15939878,7216;40;0,741317654728711;99,2586823452713
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2000;86306,4824;1;16168895,9576;42;0,530946832059263;99,4690531679407
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2001;521377,6604;2;17232834,0896;48;2,93664212042531;97,0633578795747
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2002;107883,103;1;16857044,669;47;0,635918433900185;99,3640815660998
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2003;2763026,8636;13;14141055,5824;35;16,3453229267337;83,6546770732663
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2004;215766,206;2;16424478,054;49;1,29665287737789;98,7033471226221
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2005;693177,796;4;14766382,504;43;4,48381313923915;95,5161868607608
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2006;736308,394;6;15985101,412;45;4,4033870501505;95,5966129498495
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2007;464273,586;3;13197343,868;31;3,3983793468325;96,6016206531675
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2008;160214,724333333;2;15235630,0996667;54;1,04063613374162;98,9593638662584
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2009;215766,206;1;12238693,26;27;1,73244135234476;98,2675586476552
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2010;0;0;12035472,59;31;0;100
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2011;323649,309;3;13248304,191;32;2,38469214472331;97,6153078552767
+GB;United Kingdom;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;13543120,252;40;0;100
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2001;49639,72;5;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2002;49639,72;4;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2003;19602,44;3;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2004;7168,56;1;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2005;37205,84;2;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2006;33222,56;2;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2007;40391,12;4;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2008;58329,76;6;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2009;40391,12;4;0;0;100;0
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2010;49240,72;4;3584,28;1;93,2148035967818;6,78519640321817
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2011;42471,16;2;5504,76;1;88,5259938735933;11,4740061264067
+GR;Greece;PM10;Particulate matter < 10 µm (aerosol);2012;12433,88;1;30037,28;1;29,2760546215361;70,7239453784639
+HR;Croatia;PM10;Particulate matter < 10 µm (aerosol);2006;36369,46;4;5903,18;1;86,0354593420236;13,9645406579764
+HR;Croatia;PM10;Particulate matter < 10 µm (aerosol);2008;36369,46;4;5903,18;1;86,0354593420236;13,9645406579764
+HR;Croatia;PM10;Particulate matter < 10 µm (aerosol);2009;36369,46;3;5903,18;1;86,0354593420236;13,9645406579764
+HR;Croatia;PM10;Particulate matter < 10 µm (aerosol);2010;15886,434;1;26386,206;3;37,5808891992551;62,4191108007449
+HR;Croatia;PM10;Particulate matter < 10 µm (aerosol);2011;36369,46;3;5903,18;1;86,0354593420236;13,9645406579764
+HR;Croatia;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;42272,64;5;0;100
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2000;7664,055;1;0;0;100;0
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2001;7664,055;1;0;0;100;0
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2003;1909337,551;6;6037,103;1;99,6848082443092;0,315191755690843
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2004;418154,626;6;1619631,925;2;20,5200405211625;79,4799594788375
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2005;1999264,693;10;45826,692;2;97,759186101114;2,24081389888599
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2006;1999264,693;10;45826,692;2;97,759186101114;2,24081389888599
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2007;1214008,41433333;5;831082,970666667;6;59,3620619223983;40,6379380776017
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2008;1371472,61033333;8;673618,774666667;4;67,0616785339073;32,9383214660927
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2009;638803,033666667;6;1398983,51733333;5;31,3478874101504;68,6521125898496
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2010;1721837,749;9;200841,739;2;89,5540707510788;10,4459292489212
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2011;2037427,33;11;0;0;100;0
+HU;Hungary;PM10;Particulate matter < 10 µm (aerosol);2012;1136519,16433333;6;933897,213666667;5;54,8932657416089;45,1067342583911
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);1999;24312,33;2;0;0;100;0
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2001;0;0;501722,68;4;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2002;8104,11;1;601385,89;5;1,32965430113702;98,670345698863
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2003;16208,22;2;596822,422;5;2,64394940310341;97,3560505968966
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2004;0;0;609490;7;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2005;0;0;505263,322;7;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2006;0;0;609490;7;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2007;0;0;615211,387;8;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;609490;6;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;613030,642;6;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2010;0;0;607477,962;6;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2011;0;0;613030,642;6;0;100
+IE;Ireland;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;613030,642;5;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);1997;0;0;1342,6;1;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2003;0;0;191800;2;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2004;190457,4;1;1342,6;1;99,3;0,7
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2005;0;0;191800;2;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2006;0;0;191800;2;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2007;0;0;191800;2;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;1342,6;1;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;191800;3;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2010;0;0;191800;3;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2011;0;0;191800;3;0;100
+IS;Iceland;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;191800;3;0;100
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);1998;1239814,896;1;0;0;100;0
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);1999;1385247,582;7;0;0;100;0
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2000;2124072,852;11;0;0;100;0
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2001;4706639,56366667;25;404936,039333333;6;92,078058297804;7,92194170219599
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2002;2608343,454;27;2825252,253;4;48,0040031436222;51,9959968563778
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2003;2610898,302;40;3651375,177;12;41,6924989104265;58,3075010895736
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2004;3456968,374;54;3090577,954;14;52,7979215544697;47,2020784455303
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2005;4269138,02175;49;1942241,80225;20;68,7309123369751;31,2690876630249
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2006;7605634,21245833;85;3104823,85054167;28;71,0112879180444;28,9887120819556
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2007;6387983,24654167;73;3079244,73645833;33;67,4746954231203;32,5253045768797
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2008;7399832,14879167;86;3794506,83520833;50;66,103341692334;33,896658307666
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2009;5996526,30256667;83;5361314,51143333;70;52,7963580469906;47,2036419530094
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2010;5663673,57095;66;5557020,03605;70;50,4752537527336;49,5247462472664
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2011;6373370,19818333;89;3829829,92581667;53;62,464424109372;37,535575890628
+IT;Italy;PM10;Particulate matter < 10 µm (aerosol);2012;6338592,23714762;78;6174775,11785238;82;50,6545684892316;49,3454315107684
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);1999;0;0;522682,299;1;0;100
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2003;22025,421;5;0;0;100;0
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2004;26013,414;5;526943,21;2;4,70442216820247;95,2955778317975
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2005;27441,438;5;525515,186;3;4,9626746129729;95,0373253870271
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2006;17234,1415;3;533095,5605;5;3,13160300768211;96,8683969923179
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2007;20553,605;2;641363,175;6;3,1051645193222;96,8948354806778
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;661916,78;8;0;100
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2009;8248,904;1;653667,876;7;1,24621466765052;98,7537853323495
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2010;384010,0185;4;277906,7615;4;58,0148487095311;41,9851512904689
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2011;0;0;661916,78;8;0;100
+LT;Lithuania;PM10;Particulate matter < 10 µm (aerosol);2012;2832,887;1;659083,893;7;0,427982351497419;99,5720176485026
+LU;Luxembourg;PM10;Particulate matter < 10 µm (aerosol);2006;0;0;76973,211;1;0;100
+LU;Luxembourg;PM10;Particulate matter < 10 µm (aerosol);2007;0;0;76973,211;1;0;100
+LU;Luxembourg;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;84679;2;0;100
+LU;Luxembourg;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;84679;2;0;100
+LU;Luxembourg;PM10;Particulate matter < 10 µm (aerosol);2010;0;0;84679;2;0;100
+LU;Luxembourg;PM10;Particulate matter < 10 µm (aerosol);2011;0;0;84679;2;0;100
+LU;Luxembourg;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;84679;2;0;100
+LV;Latvia;PM10;Particulate matter < 10 µm (aerosol);2004;27592,066;1;0;0;100;0
+LV;Latvia;PM10;Particulate matter < 10 µm (aerosol);2005;27592,066;1;0;0;100;0
+LV;Latvia;PM10;Particulate matter < 10 µm (aerosol);2007;27592,066;2;0;0;100;0
+LV;Latvia;PM10;Particulate matter < 10 µm (aerosol);2008;30851,82;3;698514,934;1;4,2299460224643;95,7700539775357
+LV;Latvia;PM10;Particulate matter < 10 µm (aerosol);2009;30851,82;3;698514,934;2;4,2299460224643;95,7700539775357
+LV;Latvia;PM10;Particulate matter < 10 µm (aerosol);2010;27592,066;1;701774,688;2;3,78301668518332;96,2169833148167
+LV;Latvia;PM10;Particulate matter < 10 µm (aerosol);2011;30851,82;3;698514,934;1;4,2299460224643;95,7700539775357
+LV;Latvia;PM10;Particulate matter < 10 µm (aerosol);2012;27592,066;2;701774,688;2;3,78301668518332;96,2169833148167
+MT;Malta;PM10;Particulate matter < 10 µm (aerosol);2005;9793,15;1;0;0;100;0
+MT;Malta;PM10;Particulate matter < 10 µm (aerosol);2009;9793,15;1;0;0;100;0
+MT;Malta;PM10;Particulate matter < 10 µm (aerosol);2010;9793,15;1;0;0;100;0
+MT;Malta;PM10;Particulate matter < 10 µm (aerosol);2012;9793,15;1;0;0;100;0
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);1992;440168,976;1;0;0;100;0
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);1993;1171514,8;5;0;0;100;0
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);1994;1863632,984;8;0;0;100;0
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);1995;1863632,984;8;0;0;100;0
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);1996;1863632,984;8;0;0;100;0
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);1997;1863632,984;8;0;0;100;0
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);1998;1863632,984;8;0;0;100;0
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);1999;1032926,712;4;132072,128;3;88,6633253643411;11,3366746356589
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2000;13374,976;1;1850258,008;7;0,717682940516146;99,2823170594838
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2001;41607,424;3;1822025,56;5;2,23259753166077;97,7674024683392
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2002;1051793,848;5;703113,376;2;59,934441753714;40,0655582462859
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2003;1754907,224;7;108725,76;1;94,1659242493854;5,83407575061464
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2004;627989,928;6;1286724,272;7;32,7981026097785;67,2018973902215
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2005;804340,176;8;1417868,552;10;36,1955277137225;63,8044722862775
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2006;1631122,536;11;630061,744;9;72,1357631232073;27,8642368767927
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2007;651988,328;7;891417,808;12;42,2434712932876;57,7565287067124
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;1669359,912;21;0;100
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;2367994,056;21;0;100
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2010;10953,024;1;2387138,056;23;0,456739282813228;99,5432607171868
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2011;64533,152;6;2173369,952;19;2,88364370578218;97,1163562942178
+NL;Netherlands;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;2476777,976;32;0;100
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2001;0;0;10013,076;1;0;100
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2002;0;0;10013,076;1;0;100
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2003;17551,877;5;235248,705;1;6,94297333540158;93,0570266645984
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2004;9657,89;3;510464,211;5;1,85685053210227;98,1431494678977
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2005;9657,89;3;1027455,135;6;0,931228300791999;99,068771699208
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2006;3337,692;1;677657,802;4;0,490119542553097;99,5098804574469
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2007;2664,465;2;768300,253;7;0,345601418299923;99,6543985817001
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2008;0;0;770964,718;8;0;100
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2009;994,168666666667;1;772165,524333333;11;0,128585164962378;99,8714148350376
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2010;5550,46366666667;2;1034930,74833333;13;0,533451599380409;99,4665484006196
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2011;994,168666666667;1;801143,409333333;13;0,123939919277372;99,8760600807226
+NO;Norway;PM10;Particulate matter < 10 µm (aerosol);2012;994,168666666667;1;1040948,40933333;15;0,0954149189847837;99,9045850810152
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);1997;1130177,02;5;0;0;100;0
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);1998;1130177,02;4;0;0;100;0
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);1999;3049907,371;10;182895,195;1;94,3425188743803;5,65748112561972
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2000;2692166,659;13;305935,581;2;89,7956921909374;10,2043078090626
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2001;4015438,5712;12;630559,2048;4;86,4279055823637;13,5720944176362
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2002;4313013,1324;19;1186853,2956;3;78,4203250908478;21,5796749091522
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2003;4379666,5528;18;1000460,3112;3;81,4045219287602;18,5954780712398
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2004;3964871,083;21;2463028,269;16;61,682220985093;38,317779014907
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2005;7457405,07333333;51;2506840,05666667;21;74,8416460659006;25,1583539340994
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2006;9048714,659;66;1039447,395;12;89,6963650124172;10,3036349875828
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2007;5943316,443;49;4720411,795;43;55,7339451114396;44,2660548885604
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2008;5931397,0234;44;5192939,7066;49;53,3191071734126;46,6808928265874
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2009;8538065,378;58;2500607,494;25;77,3468466454615;22,6531533545385
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2010;8666688,7455;49;2028871,2045;17;81,0307154185041;18,9692845814959
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2011;8743604,693;59;1219175,465;17;87,762698306446;12,237301693554
+PL;Poland;PM10;Particulate matter < 10 µm (aerosol);2012;9210498,185;66;2185496,009;23;80,8222435726524;19,1777564273476
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);1997;20324,3;1;0;0;100;0
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);1998;20324,3;2;0;0;100;0
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);1999;280110,252;5;0;0;100;0
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2000;624931,68;4;0;0;100;0
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2001;1098780,172;8;0;0;100;0
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2002;600567,454;10;514525,7;1;53,8580522932706;46,1419477067294
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2003;1039300,92;11;160214,234;2;86,6434172619048;13,3565827380952
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2004;1214011,242;18;0;0;100;0
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2005;1222921,672;19;324989,46;4;79,0046435301429;20,9953564698571
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2006;995398,348;16;218510,49;3;81,9994316574866;18,0005683425134
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2007;646401,326;14;839481,266;7;43,5028534206019;56,4971465793981
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2008;265698,955333333;6;1387376,77866667;16;16,0730056021337;83,9269943978663
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2009;446688,546333333;9;1463547,80766667;17;23,3839412278997;76,6160587721003
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2010;274240,975333333;7;1942839,41266667;18;12,3694646715414;87,6305353284586
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2011;747581,025333333;9;1716388,43466667;14;30,3405150700745;69,6594849299255
+PT;Portugal;PM10;Particulate matter < 10 µm (aerosol);2012;313160,404;3;1683826,218;15;15,6816475658894;84,3183524341106
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2003;209674,368;3;66718,384;1;75,8610225784792;24,1389774215208
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2004;2230728,688;5;0;0;100;0
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2005;2296310,032;5;0;0;100;0
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2006;2185737,864;7;66718,384;1;97,0379720334528;2,96202796654721
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2007;2864933,488;9;73789,792;2;97,4890527290477;2,5109472709523
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2008;3075880,72;9;785566,096;6;79,656172066258;20,343827933742
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2009;162493,876;6;80256,836;4;66,9385785364864;33,0614214635136
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2010;1896356,636;6;89715,788;7;95,4827534527009;4,51724654729912
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2011;1851733,064;5;78481,904;5;95,9340329807245;4,06596701927554
+RO;Romania;PM10;Particulate matter < 10 µm (aerosol);2012;1976639,472;5;1460118,176;17;57,5146598757202;42,4853401242798
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);1998;0;0;747119,628;2;0;100
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);1999;0;0;751178,32;3;0;100
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2000;16959,932;1;1624527,512;6;1,03320510077566;98,9667948992243
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2001;16959,932;1;1505124,388;4;1,11425706034473;98,8857429396553
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2002;21018,624;2;1501065,696;3;1,38091061867059;98,6190893813294
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2003;21018,624;4;1501065,696;3;1,38091061867059;98,6190893813294
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2004;21018,624;4;1501065,696;3;1,38091061867059;98,6190893813294
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2005;31781,596;5;1601623,656;4;1,94572632609608;98,0542736739039
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2006;31781,596;5;1613028,324;7;1,93223518496289;98,0677648150371
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2007;19646,396;4;1629305,596;11;1,19144742207874;98,8085525779213
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2008;23705,088;5;1528747,636;9;1,52694427556687;98,4730557244331
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2009;12464,7966666667;3;1540055,35733333;12;0,802875030932878;99,1971249690671
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2010;9536,7668;3;1547869,3892;16;0,61234937098836;99,3876506290116
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2011;24063,402;7;1629140,97;11;1,4555612365632;98,5444387634368
+SE;Sweden;PM10;Particulate matter < 10 µm (aerosol);2012;3391,9864;1;1652587,3336;18;0,204832654552715;99,7951673454473
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2002;5280,485;1;240377,613;1;2,14952612716231;97,8504738728377
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2003;245658,098;2;0;0;100;0
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2004;245658,098;2;0;0;100;0
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2005;245658,098;2;0;0;100;0
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2006;245658,098;2;0;0;100;0
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2007;245658,098;2;0;0;100;0
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2008;125469,2915;3;120188,8065;1;51,0747630635812;48,9252369364188
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2009;0;0;245658,098;3;0;100
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2010;125469,2915;2;120188,8065;1;51,0747630635812;48,9252369364188
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2011;245658,098;3;0;0;100;0
+SI;Slovenia;PM10;Particulate matter < 10 µm (aerosol);2012;0;0;245658,098;3;0;100
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);1999;501469,414;3;0;0;100;0
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2000;118078,696;4;401658,591;1;22,7189195298201;77,2810804701799
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2001;113254,558;3;624069,856;2;15,3602072370819;84,6397927629181
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2002;340489,961;5;401658,591;2;45,8789497173337;54,1210502826663
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2003;546525,3515;7;366768,0625;3;59,8411576304217;40,1588423695783
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2004;635026,8015;10;286958,2005;2;68,8760446344007;31,1239553655993
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2005;921985,002;12;0;0;100;0
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2006;836604,104;12;133886,197;1;86,2042725350225;13,7957274649775
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2007;473121,846;7;566483,675;5;45,5097473457916;54,4902526542084
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2008;410294,12;6;558344,573;6;42,3578082276753;57,6421917723248
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2009;108653,857;3;538000,931;7;16,8024514804953;83,1975485195047
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2010;495294,1215;9;378978,0265;3;56,6521674781752;43,3478325218248
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2011;879028,969;13;0;0;100;0
+SK;Slovakia;PM10;Particulate matter < 10 µm (aerosol);2012;417419,9965;8;457674,2055;4;47,7000071016354;52,2999928983646
+TR;Turkey;PM10;Particulate matter < 10 µm (aerosol);2008;23002889,8;42;0;0;100;0
+TR;Turkey;PM10;Particulate matter < 10 µm (aerosol);2009;31767965,7625;68;390916,6875;1;98,7844207953812;1,21557920461878
+TR;Turkey;PM10;Particulate matter < 10 µm (aerosol);2010;36805217,25;97;97191,65;1;99,736625188173;0,263374811826986
+TR;Turkey;PM10;Particulate matter < 10 µm (aerosol);2011;35278034,3;87;938779,55;4;97,4078902857436;2,59210971425638
+TR;Turkey;PM10;Particulate matter < 10 µm (aerosol);2012;33421746,65;81;951862;6;97,2308348253683;2,76916517463173

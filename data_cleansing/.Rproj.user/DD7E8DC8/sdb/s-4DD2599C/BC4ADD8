@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1450297549767.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BC4ADD8",
+    "lastKnownWriteTime" : 2334392247092476160,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "pollutants_concentrations",
+        "contentUrl" : "content?title=pollutants_concentrations&file=d5cd03dde2de4c078d1f1a72d3b578b5.htm",
+        "displayedObservations" : 71,
+        "displayedVariables" : 26,
+        "totalObservations" : 71,
+        "variables" : 26
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

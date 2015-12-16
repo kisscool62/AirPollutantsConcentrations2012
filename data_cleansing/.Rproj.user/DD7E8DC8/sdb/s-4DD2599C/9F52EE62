@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1450192218905.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9F52EE62",
+    "lastKnownWriteTime" : 7953766464592047952,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "PM10",
+        "contentUrl" : "content?title=PM10&file=b217a89f688b45c897928e6aa0ca2339.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 22,
+        "totalObservations" : 1206,
+        "variables" : 21
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

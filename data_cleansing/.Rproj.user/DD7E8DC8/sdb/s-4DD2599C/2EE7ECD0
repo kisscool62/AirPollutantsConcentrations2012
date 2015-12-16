@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1450192606895.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2EE7ECD0",
+    "lastKnownWriteTime" : 6917529027910977792,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "PM2.5",
+        "contentUrl" : "content?title=PM2.5&file=b2a235603584402681597ffa4bb70165.htm",
+        "displayedObservations" : "527",
+        "displayedVariables" : 22,
+        "totalObservations" : "527",
+        "variables" : "21"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
